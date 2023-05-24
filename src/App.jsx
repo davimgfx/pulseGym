@@ -1,13 +1,10 @@
 import React from "react";
-import { logo } from "../src/assets";
-
-const App = () => {
-  return (
+import { Navbar } from "./components"
+const App = () => (
     <div>
-      <h1>O começo!</h1>
-      <img src={logo} class="logo" alt="logo" />
+        <Navbar />
     </div>
   );
-};
+
 
 export default App;
