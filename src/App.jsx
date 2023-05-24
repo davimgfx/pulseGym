@@ -3,8 +3,8 @@ import { Navbar, Hero } from "./components"
 
 const App = () => (
     <div>
-        <Hero />
         <Navbar />
+        <Hero />
     </div>
   );
 

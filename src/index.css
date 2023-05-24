@@ -18,13 +18,19 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 9rem;
+  width: 100%;
+  padding: 0 6rem;
+  z-index: 100;
+}
+
 .logo {
   height: 10rem;
   margin-left: 6rem;
-}
-
-h1 {
-  color: white;
 }
 
 .container-hero {
