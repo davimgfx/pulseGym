@@ -1,3 +1,3 @@
 import Navbar from "./Nav/Navbar.jsx";
-
-export { Navbar };
+import Hero from "./Hero/Hero.jsx";
+export { Navbar, Hero };

@@ -1,4 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 * {
   margin: 0;
@@ -11,15 +15,47 @@ html {
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
-  background: #000000;
+  font-family: "Poppins", sans-serif;
 }
 
-.logo{
+.logo {
   height: 10rem;
   margin-left: 6rem;
 }
 
-h1{
+h1 {
   color: white;
+}
+
+.container-hero {
+  max-width: 111.6rem;
+  margin: 0 auto;
+}
+
+.hero-section {
+  background-image: url("../src/assets/hero/hero.png");
+  width: 100%;
+  height: 110vh;
+  object-fit: cover;
+  background-size: cover;
+  background-position: center center;
+}
+
+.hero-text {
+  top: 55%;
+  right: 12px;
+  transform: translate(-50%, -50%);
+}
+
+.hero-h1,
+.hero-p {
+  text-shadow: 4px 3px 0px #292929;
+}
+
+.hero-p {
+  color: #ffffff;
+}
+
+.hero-h1 {
+  color: #fff603;
 }

@@ -1,7 +1,9 @@
 import React from "react";
-import { Navbar } from "./components"
+import { Navbar, Hero } from "./components"
+
 const App = () => (
     <div>
+        <Hero />
         <Navbar />
     </div>
   );
