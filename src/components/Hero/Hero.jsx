@@ -15,7 +15,7 @@ export const Hero = () => {
               the way you want
             </span>
           </h1> 
-          <MainButton text="Our classes"/> 
+          <MainButton text="Our classes" bordertext="white"/> 
           <div className="h-3 bg-[#fffb03] mb-[2rem] rounded"></div>
           <div className="flex flex-row-reverse items-center min800:hidden">
             <div className="text-white gap-7 flex mr-7 ">

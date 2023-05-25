@@ -83,3 +83,23 @@ body {
 .card-item-div-3:hover {
   background-image: url('../src/assets/about-us/info-card-4.jpg');
 }
+
+
+.container {
+  max-width: 124rem;
+  margin: 0 auto;
+}
+
+.page-padding {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.basketball {
+  width: 51%;
+  height: auto;
+  top: 23.7%;
+  right: 25%;
+  transform: translate(50%, -50%);
+  position: absolute;
+}
