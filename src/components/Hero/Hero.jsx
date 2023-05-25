@@ -1,4 +1,5 @@
 import React from "react";
+import MainButton from "../MainButton";
 export const Hero = () => {
   return (
     <section className="hero-section w-full h-screen min800:flex min800:justify-center min800:text-center">
@@ -10,13 +11,13 @@ export const Hero = () => {
             Shape
             <br />
             your body <br />
-            <span className="font-thin text-white hero-p">
+            <span className="font-thin text-white">
               the way you want
             </span>
-          </h1>
+          </h1> 
+          <MainButton text="Our classes"/> 
           <div className="h-3 bg-[#fffb03] mb-[2rem] rounded"></div>
           <div className="flex flex-row-reverse items-center min800:hidden">
-
             <div className="text-white gap-7 flex mr-7 ">
               <i className="fa-brands hover:text-[#fffb03] fa-instagram text-4xl cursor-pointer ease-in duration-200 "></i>
               <i className="fa-brands hover:text-[#fffb03] fa-twitter text-4xl cursor-pointer ease-in duration-200"></i>
@@ -24,8 +25,9 @@ export const Hero = () => {
               <i className="fa-brands hover:text-[#fffb03] fa-facebook text-4xl cursor-pointer ease-in duration-200 "></i>
               <i className="fa-brands hover:text-[#fffb03] fa-whatsapp text-4xl cursor-pointer ease-in duration-200 "></i>
             </div>
-          </div>
-        </div>
+          </div>  
+         
+        </div>   
       </div>
     </section>
   );

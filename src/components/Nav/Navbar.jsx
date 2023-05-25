@@ -2,7 +2,7 @@ import { logo } from "../../assets";
 import { navLinks } from "../../constants";
 const Navbar = () => {
   return (
-    <nav className="bg-transparent w-full flex py-8 justify-between items-center navbar fixed top-0 left-0 right-0 w-full z-50">
+    <nav className="bg-transparent flex py-8 justify-between items-center navbar fixed top-0 left-0 right-0 w-full z-50">
       <img src={logo} alt="logo" className="w-[150px] h-[75px] mt-4" />
       <ul className="flex gap-9 text-white text-[16px] font-medium xl:none">
         {navLinks.map((nav) => (
