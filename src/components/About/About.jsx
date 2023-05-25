@@ -1,6 +1,6 @@
+import { ballBasket, manRunner, titleBg } from "../../assets";
 import MainButton from "../MainButton";
 import AboutCards from "./AboutCards";
-import { manRunner, ballBasket } from "../../assets";
 
 const About = () => {
   return (
@@ -12,10 +12,15 @@ const About = () => {
         <div className="container page-padding">
           <div
             id="about"
-            className=" grid grid-cols-[50fr,50fr] gap-[3rem] md1000:grid-cols-1 md1000:items-center md1000:flex md1000:flex-col md1000:text-center md1000:w-[full]">
-            <p className="text-black font-semibold text-[24px] relative uppercase z-10 pl-16 md1000:pl-0">
+            className=" grid grid-cols-[50fr,50fr] gap-[3rem] md1000:grid-cols-1 md1000:items-center md1000:flex md1000:flex-col md1000:text-center md1000:w-[full] relative">
+            <p className="text-black font-semibold text-[24px] relative uppercase z-10 pl-16 md1000:pl-0 ml-9 md1200:ml-2 md1000:ml-0">
               ABOUT US
             </p>
+            <img
+              src={titleBg}
+              alt="text_bg"
+              className="w-[20%] absolute top[-3px] md1000:w-[22rem]"
+            />
             <div></div>
             <div className="md1000:items-center md1000:flex md1000:flex-col md1000:text-center md1000:w-[full]">
               <h2 className="font-bold text-[40px] text-left md1000:text-center uppercase min450:text-[32px] min620:text-[36px] hero-h1 mb-5 md1000:mb-10">
@@ -29,9 +34,12 @@ const About = () => {
               <MainButton text="Our classes" bordertext="black" />
             </div>
             <div className="relative  md1000:hidden">
-              <img src={ballBasket} alt="ballBasket" className="basketball md1200:hidden"/>
-              <img src={manRunner} alt="manRunner" className=""/>
-              
+              <img
+                src={ballBasket}
+                alt="ballBasket"
+                className="basketball md1200:hidden"
+              />
+              <img src={manRunner} alt="manRunner" className="" />
             </div>
           </div>
         </div>
