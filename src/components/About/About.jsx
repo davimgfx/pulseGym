@@ -31,7 +31,7 @@ const About = () => {
                 comprehensive program designed to help you reach your fitness
                 goals.
               </p>
-              <MainButton text="Our classes" colortext="black" color="black"/>
+              <MainButton text="Our classes" colortext="black"/>
             </div>
             <div className="relative  md1000:hidden">
               <img

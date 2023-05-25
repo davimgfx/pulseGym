@@ -4,6 +4,7 @@ export default {
   theme: {
     extend: {},
     screens: {
+      md1300: { max: "1300px" },
       md1200: { max: "1200px" },
       md1000: { max: "1000px" },
       min800: { max: "800px" },
