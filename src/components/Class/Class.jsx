@@ -1,14 +1,26 @@
 import React from "react";
+import { titleBg } from "../../assets";
 
 const Class = () => {
   return (
-    <section id="class" className="relative">
-        <div className="page-padding container">
-            <div>
-                <h1 className="text-[3rem] text-center">CLASS</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, repellendus veniam. Voluptatem architecto dolore eligendi magni nostrum fugit odio, nulla eveniet amet soluta quae excepturi maxime rerum facilis quam molestias cupiditate harum tempore atque asperiores quod. Quos doloremque distinctio obcaecati soluta maiores, suscipit molestiae corporis in aliquam debitis nobis iure ea expedita tempore incidunt harum, maxime hic vero ipsa ex assumenda magni? Aspernatur praesentium earum in a accusantium quod omnis fuga quos doloribus repudiandae, totam ducimus fugiat, ipsam dignissimos. Officia sunt, consequuntur quia id rem, quos velit quod ea natus quo doloribus perspiciatis maxime animi, perferendis incidunt minus deserunt minima.</p>
-            </div>
+    <section id="class" className="clear-both">
+      <div className="container page-padding">
+        <div>
+          <div className="flex flex-col text-center items-center relative ">
+            <h2 className="text-black font-semibold text-[24px] relative uppercase z-10 pl-16 md1000:pl-0 ml-9 md1200:-ml-[2rem] md1000:ml-0 ">
+              OUR CLASSES
+            </h2>
+            <img
+              src={titleBg}
+              alt="text_bg"
+              className="w-[25rem] absolute top-[-3px] translate-x-10 md1200:translate-x-0 min250:hidden "
+            />
+            <h2 className="font-bold text-[40px] uppercase min450:text-[32px] min620:text-[36px] hero-h1 mt-[2rem] md1200:mb-10">
+            We offer top-notch flexible classes.
+              </h2>
+          </div>
         </div>
+      </div>
     </section>
   );
 };

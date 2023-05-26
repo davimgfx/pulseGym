@@ -12,6 +12,7 @@ export default {
       min540: { max: "540px" },
       min450: { max: "450px" },
       min375: { max: "375px" },
+      min250: { max: "250px" },
     },
   },
   plugins: [],

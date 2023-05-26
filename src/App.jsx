@@ -5,8 +5,10 @@ const App = () => (
   <div>
     <Navbar />
     <Hero />
-    <About />
-    <Class />
+    <div>
+      <About />
+      <Class />
+    </div>
   </div>
 );
 

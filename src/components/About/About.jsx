@@ -5,20 +5,20 @@ import AboutCards from "./AboutCards";
 const About = () => {
   return (
     <>
-      <section className="flex flex-col justify-between gap-2 about-section pb-[20rem]" id="about">
+      <section className="flex flex-col justify-between gap-2 about-section pb-[10rem]" id="about">
         <div className="flex gap-10 -mt-[8.5rem] md1000:flex-col px-20 mb-[10rem]">
           <AboutCards />
         </div>
         <div className="container page-padding">
           <div
             className=" grid grid-cols-[50fr,50fr] gap-[3rem] md1200:grid-cols-1 md1200:items-center md1200:flex md1200:flex-col md1200:text-center md1200:w-[full] relative ">
-            <p className="text-black font-semibold text-[24px] relative uppercase z-10 pl-16 md1000:pl-0 ml-9 md1200:-ml-[2rem] md1000:ml-0 ">
+            <h2 className="text-black font-semibold text-[24px] relative uppercase z-10 pl-16 md1000:pl-0 ml-9 md1200:-ml-[2rem] md1000:ml-0 ">
               ABOUT US
-            </p>
+            </h2>
             <img
               src={titleBg}
               alt="text_bg"
-              className="w-[20%] absolute top[-3px] md1000:w-[22rem]"
+              className="w-[20%] absolute top[-3px] md1000:w-[22rem] min250:hidden"
             />
             <div></div>
             <div className="md1200:items-center md1200:flex md1200:flex-col md1200:text-center md1200:w-[full] ">
