@@ -1,13 +1,13 @@
 import React from "react";
-import { Navbar, Hero, About} from "./components"
+import { About, Class, Hero, Navbar } from "./components";
 
 const App = () => (
-    <div>
-        <Navbar />
-        <Hero />
-        <About />
-    </div>
-  );
-
+  <div>
+    <Navbar />
+    <Hero />
+    <About />
+    <Class />
+  </div>
+);
 
 export default App;
