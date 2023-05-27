@@ -106,11 +106,53 @@ body {
   padding-right: 2.5rem;
 }
 
-.basketball {
+.basketball-man {
   width: 51%;
   height: auto;
   top: 23.7%;
   right: 25%;
   transform: translate(50%, -50%);
   position: absolute;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+  max-width: 101rem;
+}
+
+.grid-image:nth-child(1){
+  grid-column: span 2;
+}
+
+.grid-image:nth-child(2){
+  grid-column: span 2;
+}
+
+.grid-image-1,
+.grid-image-2,
+.grid-image-3,
+.grid-image-4,
+.grid-image-5,
+.grid-image-6 {
+  filter: grayscale(100%);
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  transition: ease 0.5s;
+}
+
+.grid-image-1:hover,
+.grid-image-2:hover,
+.grid-image-3:hover,
+.grid-image-4:hover,
+.grid-image-5:hover,
+.grid-image-6:hover {
+  filter: grayscale(0%);
+}
+
+.class-h2 {
+  text-shadow: 4px 3px 0px #141414;
 }

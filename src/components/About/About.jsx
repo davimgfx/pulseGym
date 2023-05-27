@@ -58,7 +58,7 @@ const About = () => {
               <img
                 src={ballBasket}
                 alt="ballBasket"
-                className="basketball md1200:hidden"
+                className="basketball-man md1200:hidden"
               />
               <img src={manRunner} alt="manRunner" className="" />
             </div>
