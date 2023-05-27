@@ -9,7 +9,7 @@ export const Hero = () => {
             Shape your body <br />
             <span className="font-thin text-white">the way you want</span>
           </h1>
-          <MainButton text="Our classes" colortext="white" color="white" />
+          <MainButton text="Our classes" colortext="white" />
           <div className="h-3 bg-[#fffb03] mb-[2rem] rounded md1300:mb-0"></div>
           <div className="flex flex-row-reverse items-center ">
             <div className="text-white gap-7 flex mr-7 md1300:text-[#fffb03]  md1300:mx-auto">
