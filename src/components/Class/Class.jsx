@@ -29,8 +29,8 @@ const Class = () => {
               We offer top-notch flexible classes.
             </h2>
             <div className="grid-container md1000:flex md1000:flex-col md1000:gap-[2rem] mt-[2rem] cursor-pointer">
-              <div className="grid-image relative">
-                <img src={basketball} alt="basketball" className="grid-image-1"/>
+              <div className="grid-image relative overflow-hidden">
+                <img src={basketball} alt="basketball" className="grid-image-1 transition-transform duration-300 transform hover:scale-125"/>
                 <h2 className="text-white font-bold text-[24px] absolute bottom-[5rem] left-[2rem] class-h2">
                   Basketball
                 </h2>
@@ -38,8 +38,8 @@ const Class = () => {
                   Mon: 9:00AM-11:00AM
                 </p>
               </div>
-              <div className="grid-image relative">
-                <img src={crossfit} alt="crossfit" className="grid-image-2" />
+              <div className="grid-image relative overflow-hidden">
+                <img src={crossfit} alt="crossfit" className="grid-image-2 transition-transform duration-300 transform hover:scale-125" />
                 <h2 className="text-white font-bold text-[24px] absolute bottom-[5rem] left-[2rem] class-h2">
                   Cross-Fit
                 </h2>
@@ -47,8 +47,8 @@ const Class = () => {
                   Tues: 3:00PM-4:00PM
                 </p>
               </div>
-              <div className="grid-image relative">
-                <img src={cycling} alt="cycling" className="grid-image-3" />
+              <div className="grid-image relative overflow-hidden">
+                <img src={cycling} alt="cycling" className="grid-image-3 transition-transform duration-300 transform hover:scale-125" />
                 <h2 className="text-white font-bold text-[24px] absolute bottom-[4rem] left-[2rem] class-h2 md1000:bottom-[5rem]">
                   Cycling
                 </h2>
@@ -56,8 +56,8 @@ const Class = () => {
                   Wed: 1:00PM-2:00PM
                 </p>
               </div>
-              <div className=" grid-image relative">
-                <img src={martialarts} alt="martialarts" className="grid-image-4"/>
+              <div className=" grid-image relative overflow-hidden">
+                <img src={martialarts} alt="martialarts" className="grid-image-4 transition-transform duration-300 transform hover:scale-125"/>
                 <h2 className="text-white font-bold text-[24px] absolute bottom-[4rem] left-[2rem] class-h2 md1000:bottom-[5rem]">
                   Boxing
                 </h2>
@@ -65,8 +65,8 @@ const Class = () => {
                 Thu: 6:00AM-7:00AM
                 </p>
               </div>
-              <div className="grid-image relative">
-                <img src={stretching} alt="stretching" className="grid-image-5 "/>
+              <div className="grid-image relative overflow-hidden">
+                <img src={stretching} alt="stretching" className="grid-image-5 transition-transform duration-300 transform hover:scale-125"/>
                 <h2 className="text-white font-bold text-[24px] absolute bottom-[4rem] left-[2rem] class-h2 md1000:bottom-[5rem]">
                   Stretching
                 </h2>
@@ -74,8 +74,8 @@ const Class = () => {
                   Fri: 8:00AM-10:00AM
                 </p>
               </div>
-              <div className=" grid-image relative">
-                <img src={yoga} alt="yoga" className="grid-image-6"/>
+              <div className=" grid-image relative overflow-hidden">
+                <img src={yoga} alt="yoga" className="grid-image-6 transition-transform duration-300 transform hover:scale-125"/>
                 <h2 className="text-white font-bold text-[24px] absolute bottom-[4rem] left-[2rem] class-h2 
                 md1000:bottom-[5rem]">
                   Yoga

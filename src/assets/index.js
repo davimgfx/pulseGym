@@ -8,5 +8,6 @@ import cycling from "./class/cycling.png"
 import martialarts from "./class/martial-arts.jpg"
 import stretching from "./class/stretching.jpg"
 import yoga from "./class/yoga.jpg"
-
-export { logo, manRunner, ballBasket, titleBg, basketball, crossfit, cycling, martialarts, stretching, yoga };
+import whychoosebg from "./whychooseus/whychoose-bg.png";
+import imgvideo from "./whychooseus/imgvideo.png"
+export { logo, manRunner, ballBasket, titleBg, basketball, crossfit, cycling, martialarts, stretching, yoga, whychoosebg, imgvideo };

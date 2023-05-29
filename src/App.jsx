@@ -1,15 +1,14 @@
 import React from "react";
-import { About, Class, Hero, Navbar } from "./components";
+import { About, Class, Hero, Navbar, Whychooseus } from "./components";
 
 const App = () => (
-  <div>
+  <>
     <Navbar />
     <Hero />
-    <div>
-      <About />
-      <Class />
-    </div>
-  </div>
+    <About />
+    <Class />
+    <Whychooseus />
+  </>
 );
 
 export default App;

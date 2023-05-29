@@ -165,3 +165,12 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.whychooseus{
+  background-image: url("../src/assets/whychooseus/whychoose-bg.png");
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-size: cover;
+  background-position: center center;
+}
