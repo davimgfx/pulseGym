@@ -6,11 +6,13 @@ const Whychooseus = () => {
     <section className="whychooseus w-full h-screen flex justify-center items-center">
       <div className="page-padding flex justify-center gap-[12.5rem]">
         <div>
-          <img
-            src={imgvideo}
-            alt=""
-            className=" w-[100%] h-auto cursor-pointer rounded-xl image-border"
-          />
+          <a href="https://github.com/davimgfx" target="_blank">
+            <img
+              src={imgvideo}
+              alt=""
+              className=" w-[100%] h-auto cursor-pointer rounded-xl image-border"
+            />
+          </a>
         </div>
         <div className="w-[28%] ">
           <div>
@@ -35,10 +37,10 @@ const Whychooseus = () => {
             </p>
             <div className="flex flex-wrap gap-[6rem] justify-center items-center text-[26px] mt-[4rem] mb-[4rem]">
               <div className="flex justify-center items-center gap-[2rem] text-white">
-                <i class="fa-solid fa-people-group hover:text-[#fffb00] ease-in duration-200 text-[4.3rem]"></i>
+                <i className="fa-solid fa-people-group hover:text-[#fffb00] ease-in duration-200 text-[4.3rem]"></i>
                 <p className="text-[18px] text-left font-bold min800:text-[20px] leading-thin">
                   3 Days <br />
-                 For Free
+                  For Free
                 </p>
               </div>
               <div className="flex justify-center items-center gap-[2rem] text-white cursor-pointer">
@@ -50,14 +52,14 @@ const Whychooseus = () => {
                 </p>
               </div>
               <div className="flex justify-center items-center gap-[2rem] text-white">
-                <i class="fa-solid fa-bottle-water hover:text-[#fffb00] ease-in duration-200 text-[5rem]"></i>
+                <i className="fa-solid fa-bottle-water hover:text-[#fffb00] ease-in duration-200 text-[5rem]"></i>
                 <p className="text-[18px] text-left font-bold min800:text-[20px] leading-thin">
                   Free Water
                   <br />
                 </p>
               </div>
               <div className="flex justify-center items-center gap-[2rem] text-white">
-                <i class="fa-solid fa-lock hover:text-[#fffb00] ease-in duration-200 text-[3.6rem]"></i>
+                <i className="fa-solid fa-lock hover:text-[#fffb00] ease-in duration-200 text-[3.6rem]"></i>
                 <p className="text-[18px] text-left font-bold min800:text-[20px] leading-thin">
                   Free <br />
                   Gym Locker
