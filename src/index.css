@@ -40,8 +40,6 @@ body {
 
 .hero-section {
   background-image: url("../src/assets/hero/hero.png");
-  width: 100%;
-  height: 110vh;
   object-fit: cover;
   background-size: cover;
   background-position: center center;
@@ -168,9 +166,11 @@ body {
 
 .whychooseus{
   background-image: url("../src/assets/whychooseus/whychoose-bg.png");
-  width: 100%;
-  height: 100%;
   object-fit: cover;
   background-size: cover;
   background-position: center center;
+}
+
+.image-border{
+  box-shadow: rgb(251, 255, 0, 0.7) 5px 5px, rgba(255, 238, 0, 0.3) 10px 10px, rgba(255, 238, 0, 0.2) 15px 15px, rgba(255, 208, 1, 0.1) 20px 20px, rgba(255, 255, 255, 0.05) 25px 25px;
 }
