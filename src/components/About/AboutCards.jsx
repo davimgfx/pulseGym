@@ -4,7 +4,7 @@ const AboutCards = () => {
   return (
     <>
       {cardList.map((card, id) => (
-        <div key={card.id} className={`flex flex-col cursor-pointer bg-[#37383A] justify-center py-6 px-10 text-center items-center mt-12 rounded-[32px] shadow-2xl min-h-[340px] w-full text-white md1000:min-h-[260px]  ${id === 0 ? "card-item-div-0" :
+        <div key={id} className={`flex flex-col cursor-pointer bg-[#37383A] justify-center py-6 px-10 text-center items-center mt-12 rounded-[32px] shadow-2xl min-h-[340px] w-full text-white md1000:min-h-[260px]  ${id === 0 ? "card-item-div-0" :
         id === 1 ? "card-item-div-1" : 
         id === 2 ?"card-item-div-2" : "card-item-div-3" }`}>
           <img src={card.img} alt="box_img" className="w-[75px] mb-4"/>

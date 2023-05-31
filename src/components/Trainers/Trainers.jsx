@@ -1,5 +1,6 @@
 import React from "react";
 import { titleBg } from "../../assets";
+import TrainersCards from "./TrainersCards";
 const Trainers = () => {
   return (
     <section className="trainer-section">
@@ -17,9 +18,7 @@ const Trainers = () => {
             guidance and motivation provided!
           </p>
         </div>
-        <div className="flex">
-
-        </div>
+        <TrainersCards />
       </div>
     </section>
   );
