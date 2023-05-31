@@ -16,7 +16,7 @@ const Class = () => {
     <section id="class">
       <div className="container page-padding">
         <div>
-          <div className="flex flex-col text-center items-center relative mb-[10rem]">
+          <div className="flex flex-col text-center items-center relative mb-[10rem] md1000:mb-[5rem] ">
             <h2 className="text-black font-semibold text-[24px] relative uppercase z-10 pl-16 md1000:pl-0 ml-9 md1200:-ml-[2rem] md1000:ml-0 ">
               OUR CLASSES
             </h2>
@@ -31,10 +31,10 @@ const Class = () => {
             <div className="grid-container md1000:flex md1000:flex-col md1000:gap-[2rem] mt-[2rem] cursor-pointer">
               <div className="grid-image relative overflow-hidden">
                 <img src={basketball} alt="basketball" className="grid-image-1 transition-transform duration-300 transform hover:scale-125"/>
-                <h2 className="text-white font-bold text-[24px] absolute bottom-[5rem] left-[2rem] class-h2">
+                <h2 className="text-white font-bold text-[24px] absolute bottom-[5rem] left-[2rem] class-h2 min450:text-[18px] min540:bottom-[4rem]">
                   Basketball
                 </h2>
-                <p className="text-black font-thin text-[18px] absolute bottom-[2rem] left-[2rem] bg-[#fcec18] px-[10px]">
+                <p className="text-black font-thin text-[18px] absolute bottom-[2rem] left-[2rem] bg-[#fcec18] px-[10px] min450:text-[14px]">
                   Mon: 9:00AM-11:00AM
                 </p>
               </div>

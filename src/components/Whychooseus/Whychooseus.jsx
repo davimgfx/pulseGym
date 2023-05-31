@@ -3,26 +3,36 @@ import { imgvideo, titleBg } from "../../assets";
 import MainButton from "../MainButton";
 const Whychooseus = () => {
   return (
-    <section className="whychooseus w-full h-screen flex justify-center items-center">
-      <div className="page-padding flex justify-center gap-[12.5rem]">
+    <section className="whychooseus w-full h-screen flex justify-center items-center md1200:h-[100%] md1200:w-[100%] md1200:pt-[3rem]">
+      <div className="page-padding flex justify-center gap-[12.5rem] md1200:flex-col md1200:gap-[5rem]">
+        <div className="md1200:flex hidden md1200:justify-center md1200:flex-col">
+          <h2 className="text-black font-semibold text-[24px] z-10 text-center translate-y-[3.5rem]">
+            WHY US
+          </h2>
+          <img
+            src={titleBg}
+            alt="text_bg"
+            className="w-[20rem] mx-auto transform"
+          />
+        </div>
         <div>
           <a href="https://github.com/davimgfx" target="_blank">
             <img
               src={imgvideo}
               alt=""
-              className=" w-[100%] h-auto cursor-pointer rounded-xl image-border"
+              className=" w-[100%] h-auto cursor-pointer rounded-xl image-border md1200:w-[45rem] mx-auto"
             />
           </a>
         </div>
-        <div className="w-[28%] ">
+        <div className="w-[28%] md1400:w-[33%] md1200:w-[100%]  md1200:mt-[4rem]">
           <div>
-            <h2 className="text-black font-semibold text-[24px] bottom-[2.6rem] relative uppercase z-10 ">
+            <h2 className="text-black font-semibold text-[24px] bottom-[2.6rem] relative uppercase z-10 md1200:left-[50%] md1200:hidden">
               Why US
             </h2>
             <img
               src={titleBg}
               alt="text_bg"
-              className="relative bottom-[6rem] right-[6rem]"
+              className="relative bottom-[6rem] right-[6rem] md1200:hidden"
             />
           </div>
           <div className="relative bottom-[3rem] text-center">

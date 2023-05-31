@@ -10,9 +10,7 @@ import stretching from "./class/stretching.jpg";
 import yoga from "./class/yoga.jpg";
 import whychoosebg from "./whychooseus/whychoose-bg.png";
 import imgvideo from "./whychooseus/imgvideo.png";
-import trainer1 from "./trainers/trainer1.png"
-import trainer2 from "./trainers/trainer2.png"
-import trainer3 from "./trainers/trainer3.png"
+
 export {
   logo,
   manRunner,
@@ -26,7 +24,4 @@ export {
   yoga,
   whychoosebg,
   imgvideo,
-  trainer1,
-  trainer2,
-  trainer3
 };
