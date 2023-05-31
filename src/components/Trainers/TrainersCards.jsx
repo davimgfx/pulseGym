@@ -2,7 +2,7 @@ import React from "react";
 import { trainer1, trainer2, trainer3 } from "../../assets";
 const TrainersCards = () => {
   return (
-    <div className="flex justify-center items-center mt-[4rem] mb-[5rem] gap-[5rem]">
+    <div className="flex justify-center items-center mt-[5rem] mb-[10rem] gap-[5rem]">
       <div>
         <img src={trainer1} alt="trainer1"/>
         <div className="flex flex-col justify-center text-center mt-[2rem]">
