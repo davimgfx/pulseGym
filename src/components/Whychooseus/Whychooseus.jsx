@@ -6,7 +6,6 @@ const Whychooseus = () => {
   return (
     <section className="whychooseus flex justify-center items-center  py-[10rem] pb-[5rem]" id="whyus">
       <div className="page-padding flex justify-center md1200:flex-col md1200:gap-[5rem] gap-[10rem]">
-        <div>
           <a href="https://github.com/davimgfx" target="_blank">
             <img
               src={imgvideo}
@@ -14,16 +13,15 @@ const Whychooseus = () => {
               className=" w-[100%] h-auto cursor-pointer rounded-xl image-border md1200:w-[45rem] mx-auto"
             />
           </a>
-        </div>
         <div className="w-[28%] md1400:w-[33%] md1200:w-[100%]  md1200:mt-[4rem]">
           <div>
-            <h2 className="text-black font-semibold text-[24px] bottom-[2.6rem] relative uppercase z-10 md1200:left-[50%] md1200:hidden">
+            <h2 className="text-black font-semibold text-[24px] bottom-[2.6rem] relative uppercase z-10 md1200:left-[50%] ">
               Why US
             </h2>
             <img
               src={titleBg}
               alt="text_bg"
-              className="relative bottom-[6rem] right-[6rem] md1200:hidden"
+              className="relative bottom-[6rem] right-[6rem] "
             />
           </div>
           <div className="relative bottom-[3rem] text-left md1200:text-center md1200:flex">
