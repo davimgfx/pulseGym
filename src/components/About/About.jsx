@@ -13,7 +13,7 @@ const About = () => {
         </div>
         <div className="container page-padding">
           <div
-            className=" grid grid-cols-[50fr,50fr] gap-[3rem] md1200:grid-cols-1 md1200:items-center md1200:flex md1200:flex-col md1200:text-center md1200:w-[full] relative ">
+            className=" grid grid-cols-[50fr,50fr] gap-[1rem] md1200:grid-cols-1 md1200:items-center md1200:flex md1200:flex-col md1200:text-center md1200:w-[full] relative ">
             <h2 className="text-black font-semibold text-[24px] relative uppercase z-10 pl-16 md1000:pl-0 ml-9 md1200:-ml-[2rem] md1000:ml-0 ">
               ABOUT US
             </h2>

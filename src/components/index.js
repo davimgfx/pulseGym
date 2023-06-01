@@ -5,4 +5,5 @@ import About from "./About/About.jsx";
 import Class from "./Class/Class.jsx";
 import Whychooseus from "./Whychooseus/Whychooseus.jsx";
 import Trainers from "./Trainers/Trainers.jsx";
-export { Navbar, Hero, MainButton, About, Class, Whychooseus, Trainers }
+import Testimonials from "./Testimonials/Testimonials.jsx";
+export { Navbar, Hero, MainButton, About, Class, Whychooseus, Trainers, Testimonials }

@@ -6,9 +6,9 @@ const Class = () => {
   return (
     <>
       <section id="class">
-        <div className="container page-padding">
+        <div className="container page-padding ">
           <div>
-            <div className="flex flex-col text-center items-center relative mb-[10rem] md1000:mb-[5rem] ">
+            <div className="flex flex-col text-center items-center relative mb-[10rem] md1000:mb-[5rem] mt-[10rem]">
               <h2 className="text-black font-semibold text-[24px] relative uppercase z-10 pl-16 md1000:pl-0 ml-9 md1200:-ml-[2rem] md1000:ml-0 ">
                 OUR CLASSES
               </h2>
