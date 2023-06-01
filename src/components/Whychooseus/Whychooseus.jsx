@@ -18,14 +18,14 @@ const Whychooseus = () => {
           </a>
         </div>
         <div className="w-[28%] md1400:w-[33%] md1200:w-[100%] mt-[5rem]">
-          <div className=" md1200:static">
-            <h2 className="text-black font-semibold text-[24px] bottom-[2.6rem] relative uppercase z-10  md1200:text-center">
+          <div className=" md1200:static transform translate-x-[5rem]">
+            <h2 className="text-black font-semibold text-[24px] bottom-[2.6rem] relative uppercase z-10  md1200:text-center md1200:translate-x-[-4rem]">
               Why US
             </h2>
             <img
               src={titleBg}
               alt="text_bg"
-              className="relative bottom-[6rem] right-[6rem] md1200:mx-auto transform translate-x-[5rem]"
+              className="relative bottom-[6rem] right-[6rem] md1200:mx-auto transform md1200:translate-x-[2rem]"
             />
           </div>
           <div className="relative bottom-[3rem] text-left md1200:flex md1200:flex-col md1200:justify-center md1200:text-center ">
