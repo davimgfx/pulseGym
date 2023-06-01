@@ -1,4 +1,6 @@
-import { ballBasket, manRunner, titleBg } from "../../assets";
+import ballBasket from "../../assets/about-us/basketball.png";
+import manRunner from "../../assets/about-us/runner.png"
+import titleBg from "../../assets/about-us/title-bg.svg"
 import MainButton from "../MainButton";
 import AboutCards from "./AboutCards";
 

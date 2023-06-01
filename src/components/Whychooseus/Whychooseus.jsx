@@ -1,20 +1,11 @@
 import React from "react";
-import { imgvideo, titleBg } from "../../assets";
+import titleBg  from "../../assets/about-us/title-bg.svg";
+import imgvideo from "../../assets/whychooseus/imgvideo.png";
 import MainButton from "../MainButton";
 const Whychooseus = () => {
   return (
-    <section className="whychooseus w-full h-screen flex justify-center items-center md1200:h-[100%] md1200:w-[100%] md1200:pt-[3rem]">
-      <div className="page-padding flex justify-center gap-[12.5rem] md1200:flex-col md1200:gap-[5rem]">
-        <div className="md1200:flex hidden md1200:justify-center md1200:flex-col">
-          <h2 className="text-black font-semibold text-[24px] z-10 text-center translate-y-[3.5rem]">
-            WHY US
-          </h2>
-          <img
-            src={titleBg}
-            alt="text_bg"
-            className="w-[20rem] mx-auto transform"
-          />
-        </div>
+    <section className="whychooseus flex justify-center items-center  py-[10rem] pb-[5rem]" id="whyus">
+      <div className="page-padding flex justify-center md1200:flex-col md1200:gap-[5rem] gap-[10rem]">
         <div>
           <a href="https://github.com/davimgfx" target="_blank">
             <img
@@ -35,8 +26,8 @@ const Whychooseus = () => {
               className="relative bottom-[6rem] right-[6rem] md1200:hidden"
             />
           </div>
-          <div className="relative bottom-[3rem] text-center">
-            <h2 className="font-bold text-[40px]  md1200:text-center uppercase min450:text-[32px] min620:text-[36px] hero-h1 mb-5 md1200:mb-10 ">
+          <div className="relative bottom-[3rem] text-left md1200:text-center md1200:flex">
+            <h2 className="font-bold text-[40px] md1200: uppercase min450:text-[32px] min620:text-[36px] hero-h1 mb-5 md1200:mb-10 ">
               We Can Give A Shape Of Your Body Here!
             </h2>
             <p className="font-thin text-[16px] text-[#777] md1000:mb-10 md1200:mx-[20rem] md1000:mx-0">

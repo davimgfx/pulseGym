@@ -1,13 +1,14 @@
 import React from "react";
-import { titleBg } from "../../assets";
 import MainButton from "../MainButton";
 import TrainersCards from "./TrainersCards.jsx";
+import titleBg  from "../../assets/about-us/title-bg.svg";
+
 const Trainers = () => {
   return (
     <section className="trainer-section">
-      <div className="mt-[6rem] flex flex-col justify-center align-center">
-        <img src={titleBg} alt="" className="h-[4.4rem] relative" />
-        <h2 className="text-black font-semibold text-[24px] relative text-center bottom-[4rem] left-[0.7rem] uppercase z-10 ">
+      <div className="mt-[8rem] flex flex-col justify-center align-center">
+        <img src={titleBg} alt="titleBg" className="h-[4.5rem] transform translate-y-[4rem]"/>
+        <h2 className="text-black font-semibold text-[24px] text-center uppercase z-10 mb-[2rem]">
           Our Trainers
         </h2>
         <div className="flex justify-center flex-col align-center text-center trainer-info">
