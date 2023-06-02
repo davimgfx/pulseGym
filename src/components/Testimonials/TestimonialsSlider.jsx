@@ -41,11 +41,11 @@ const TestimonialsSlider = () => {
   };
 
   return (
-    <div className="App-slider mt-[5rem] mb-[10rem] max-w-[120rem] mx-auto md1300:max-w-[90rem] md1000:max-w-[60rem] min680:max-w-[30rem] min375:max-w-[25rem]">
+    <div className="App-slider mt-[5rem] mb-[10rem] min620:mb-[2rem] max-w-[120rem] mx-auto md1300:max-w-[90rem] md1000:max-w-[60rem] min680:max-w-[30rem] min375:max-w-[25rem]">
       <Slider {...settings}>
         {PeopleCarousel.map((item, index) => (
           <div className="card " key={index}>
-            <div className="card-top p-[2rem] bg-[#777] h-[17rem] ">
+            <div className="card-top p-[2rem] border-black border-solid h-[17rem] min620:h-[14rem]">
               <h2 className="text-[14px] min620:text-[12px]">"{item.msg}"</h2>
             </div>
             <div className="card-bottom display flex justify-start relative top-[3rem] left-[2rem] gap-[1.5rem]">

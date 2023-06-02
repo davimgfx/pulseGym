@@ -199,9 +199,9 @@ body {
   bottom: 9rem;
   left: 10%;
   transform: translateX(-50%);
-  border-left: 30px solid transparent;
-  border-right: 30px solid transparent;
-  border-top: 30px solid #777;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #777;
   
 }
 
@@ -212,7 +212,7 @@ body {
   margin: 0 -1rem;
 }
 
-.slick-dots li button:before {
+.slick-dots li button::before {
   font-size: 1rem;
 }
 
@@ -239,4 +239,15 @@ body {
   .card-bottom::before{
     left: 12%;
   }
+}
+
+@media screen and (max-width: 620px) {
+  .card-bottom::before{
+    bottom: 7rem
+    
+  }
+  .slick-dots li button::before {
+   display: none;
+  }
+  
 }
