@@ -3,8 +3,8 @@ import titleBg from "../../assets/about-us/title-bg.svg"
 import GalleryPhotos from "./GalleryPhotos"
 const Gallery = () => {
   return (
-    <section id="gallery" className="about-section">
-      <div className="mt-[8rem] flex flex-col justify-center align-center ">
+    <section id="gallery" className=" ">
+      <div className="mt-[4rem] flex flex-col justify-center align-center ">
         <img
           src={titleBg}
           alt="titleBg"

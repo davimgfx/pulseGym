@@ -6,7 +6,7 @@ import TestimonialsSlider from "./TestimonialsSlider";
 const Testimonials = () => {
   return (
     <section id="testimonials">   
-      <div className="mt-[2rem] flex flex-col justify-center align-center ">
+      <div className="mt-[2rem] flex flex-col justify-center align-center border-b border-solid border-[#64646438] border-t-0">
         <img
           src={titleBg}
           alt="titleBg"
@@ -22,13 +22,13 @@ const Testimonials = () => {
           </h2>
         </div> 
         <TestimonialsSlider />
-        <div className="flex gap-[1rem] mx-auto items-center justify-center md1300:grid md1300:grid-cols-3 md1300:gap-4  min540:grid-cols-1 min540:gap-[2rem]">
+        <div className="flex gap-[1rem] mx-auto items-center justify-center md1300:grid md1300:grid-cols-3 md1300:gap-4  min540:grid-cols-1 min540:gap-[2rem] pb-[5rem]">
           {TestimonialsCompany.map((img, index) => (
             <img
               src={img.img}
               alt="companylogo"
               key={index}
-              className="w-[100%] opacity-30 hover:opacity-70 transition duration-300 cursor-pointer"></img>
+              className="w-[100%] opacity-30 hover:opacity-70 transition duration-300 cursor-pointer "></img>
           ))}
         </div>
       </div>

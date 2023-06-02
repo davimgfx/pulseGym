@@ -6,7 +6,7 @@ import titleBg  from "../../assets/about-us/title-bg.svg";
 const Trainers = () => {
   return (
     <section className="trainer-section">
-      <div className="mt-[8rem] flex flex-col justify-center align-center">
+      <div className="pt-[8rem] flex flex-col justify-center align-center">
         <img src={titleBg} alt="titleBg" className="h-[4.5rem] transform translate-y-[4rem]"/>
         <h2 className="text-black font-semibold text-[24px] text-center uppercase z-10 mb-[2rem]">
           Our Trainers

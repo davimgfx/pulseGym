@@ -40,7 +40,7 @@ const About = () => {
                     Equipaments
                   </p>
                 </div>
-                <div className="flex flex-col justify-center items-center border-solid border-l border-[rgb(0,0,0,0.2)] min540:border-none border-r min540:mb-[0] px-[3.5rem] gap-[1.3rem]  min540:gap-[0.3rem] text-[26px] mb-[2rem] ">
+                <div className="flex flex-col justify-center items-center border-solid border-l border-[rgb(0,0,0,0.2)] border-y-0 min540:border-none border-r min540:mb-[0] px-[3.5rem] gap-[1.3rem]  min540:gap-[0.3rem] text-[26px] mb-[2rem] ">
                   <i className="fa-solid fa-basketball text-[4.5rem] min800:text-[4rem]"></i>
                   <p className="text-[22px] text-center text-black font-bold min800:text-[20px]">
                     Sports
