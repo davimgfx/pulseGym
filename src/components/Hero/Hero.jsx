@@ -2,7 +2,7 @@ import React from "react";
 import MainButton from "../MainButton";
 export const Hero = () => {
   return (
-    <section className="hero-section w-full h-screen md1300:flex md1300:justify-center md1300:text-center">
+    <section className="hero-section md1300:flex md1300:justify-center md1300:text-center">
       <div className="container-hero md1300:flex md1300:justify-center md1300:text-center">
         <div className="flex flex-col text-white absolute top-[35%] right-[20rem] md1300:static md1300:my-[auto]  md1300:items-center md1300:w-[80%]">
           <h1 className="font-bold text-[52px] uppercase min450:text-[40px] min620:text-[50px] hero-h1">

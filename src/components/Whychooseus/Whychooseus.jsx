@@ -17,7 +17,7 @@ const Whychooseus = () => {
             />
           </a>
         </div>
-        <div className="w-[28%] md1400:w-[33%] md1200:w-[100%] mt-[5rem]">
+        <div className="w-[28%] md1400:w-[33%] md1200:w-[100%]  md1200:h-[100%] mt-[5rem]">
           <div className=" md1200:static transform translate-x-[5rem]">
             <h2 className="text-black font-semibold text-[24px] bottom-[2.6rem] relative uppercase z-10  md1200:text-center md1200:translate-x-[-4rem]">
               Why US

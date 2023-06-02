@@ -8,6 +8,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
 }
 
 html {
@@ -16,16 +20,6 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-}
-
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 9rem;
-  width: 100%;
-  padding: 0 6rem;
-  z-index: 100;
 }
 
 .logo {
@@ -160,9 +154,12 @@ body {
 
 .whychooseus {
   background-image: url("../src/assets/whychooseus/whychoose-bg.png");
+  width: 100%;
   object-fit: cover;
   background-size: cover;
   background-position: center center;
+  padding-left: 6rem;
+  padding-right: 6rem;
 }
 
 .image-border {
@@ -190,33 +187,16 @@ body {
   height: 30rem;
   display: inline-block;
   letter-spacing: 0.3ch;
-
 }
-
-
-
 
 .slick-slide > div {
-  margin: 0 10px;
+  margin: 0 1rem;
 }
 .slick-list {
-  margin: 0 -10px;
+  margin: 0 -1rem;
 }
 
-.card {
-  border-radius: 8px;
-  overflow: hidden;
-  height: 320px;
-  cursor: pointer;
+.slick-dots li button:before{
+  font-size: 1rem;
 }
 
-.card-bottom::after{
-  content: "";
-  position: absolute;
-  bottom: 9rem;
-  left: 10%;
-  transform: translateX(-50%);
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
-  border-top: 20px solid #777;
-}

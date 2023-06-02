@@ -7,45 +7,18 @@ import { PeopleCarousel } from "./TestimonialsCompany";
 const TestimonialsSlider = () => {
   const settings = {
     dots: true,
-    infinite: false,
+    infinite: true,
     speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 3,
-    initialSlide: 0,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          infinite: true,
-          dots: true,
-        },
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          initialSlide: 2,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-    ],
+    slidesToShow: 1,
+    slidesToScroll: 1
   };
 
   return (
-    <div className="App-slider mt-[5rem] mb-[10rem] max-w-[120rem] mx-auto">
+    <div className="App-slider mt-[10rem] mb-[10rem] max-w-[120rem] mx-auto md1300:max-w-[20rem]">
       <Slider {...settings}>
         {PeopleCarousel.map((item, index) => (
-          <div className="card" key={index}>
-            <div className="card-top px-[2rem] py-[2rem] bg-[#777] h-[17rem] ">
+          <div className="card " key={index}>
+            <div className="card-top p-[2rem] bg-[#777] h-[17rem] ">
               <h2 className="text-[14px] ">"{item.msg}"</h2>
             </div>
             <div className="card-bottom display flex justify-start relative top-[3rem] left-[2rem] gap-[1.5rem]">

@@ -2,9 +2,9 @@ import logo from "../../assets/logo/logo.png";
 import { navLinks } from "./navlinks";
 const Navbar = () => {
   return (
-    <nav className="bg-transparent flex py-8 justify-between items-center navbar fixed top-0 left-0 right-0 w-full z-50">
-      <img src={logo} alt="logo" className="w-[150px] h-[75px] mt-4" />
-      <ul className="flex gap-9 text-white text-[16px] font-medium xl:none">
+    <nav className="bg-transparent flex flex-row items-center justify-between py-8 px-12 fixed top-0 left-0 right-0  z-50 ">
+      <img src={logo} alt="logo" className="w-[150px] h-[75px] my-2" />
+      <ul className="flex gap-9 text-white text-[16px] font-medium ">
         {navLinks.map((nav) => (
           <li
             key={nav.id}
@@ -18,7 +18,7 @@ const Navbar = () => {
           className={
             "fa-solid fa-user hover:text-[#fff336] cursor-pointer text-white text-4xl px-4 mr-5 ease-in duration-200"
           }></i>
-        <div className="border-solid border-2  p-2 rounded-md min620:hidden flex items-center cursor-pointer">
+        <div className="border-solid border-2 border-white p-2 rounded-md min620:hidden flex items-center cursor-pointer">
           <i
             className={
               "fa-solid fa-magnifying-glass bg-[#fff336] text-black text-2xl py-3 px-4 rounded-md"
