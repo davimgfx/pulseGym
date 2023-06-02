@@ -6,7 +6,7 @@ import TestimonialsSlider from "./TestimonialsSlider";
 const Testimonials = () => {
   return (
     <section id="testimonials">   
-      <div className="mt-[2rem] flex flex-col justify-center align-center border-b border-solid border-[#64646438] border-t-0">
+      <div className="mt-[2rem] flex flex-col justify-center align-center border-b border-solid border-[#64646438] border-t-0 border-l-0 border-r-0">
         <img
           src={titleBg}
           alt="titleBg"
