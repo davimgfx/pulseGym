@@ -41,7 +41,7 @@ const TestimonialsSlider = () => {
   };
 
   return (
-    <div className="App-slider mt-[5rem] mb-[10rem] min620:mb-[2rem] max-w-[120rem] mx-auto md1300:max-w-[90rem] md1000:max-w-[60rem] min680:max-w-[30rem] min375:max-w-[25rem]">
+    <div className="App-slider mt-[5rem] mb-[10rem] min620:mb-0 max-w-[120rem] mx-auto md1300:max-w-[90rem] md1000:max-w-[60rem] min680:max-w-[30rem] min375:max-w-[25rem]">
       <Slider {...settings}>
         {PeopleCarousel.map((item, index) => (
           <div className="card " key={index}>
