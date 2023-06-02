@@ -185,3 +185,52 @@ body {
   margin: 0 auto;
 }
 
+.card {
+  width: 30rem;
+  height: 30rem;
+  display: inline-block;
+  border: 3px solid #292929;
+  border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
+  letter-spacing: 0.3ch;
+  background: #ffffff;
+  position: relative;
+}
+
+.card::before {
+  content: "";
+  border: 2px solid #292929;
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0) scale(1.015) rotate(0.5deg);
+  border-radius: 1% 1% 2% 4% / 2% 6% 5% 4%;
+}
+
+
+.slick-slide > div {
+  margin: 0 10px;
+}
+.slick-list {
+  margin: 0 -10px;
+}
+
+.card {
+  border-radius: 8px;
+  overflow: hidden;
+  height: 320px;
+  cursor: pointer;
+}
+
+.card-bottom::after{
+  content: "";
+  position: absolute;
+  bottom: 9rem;
+  left: 10%;
+  transform: translateX(-50%);
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #777;
+}

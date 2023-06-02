@@ -21,7 +21,7 @@ const Trainers = () => {
           </p>
         </div>
           <TrainersCards />
-        <div className="mx-auto mb-[5rem]">
+        <div className="mx-auto mb-[2rem]">
           <MainButton text="Our classes" colortext="black"/>
         </div>
       </div>

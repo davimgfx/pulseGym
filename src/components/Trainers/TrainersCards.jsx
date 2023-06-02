@@ -3,7 +3,7 @@ import { trainersCards } from "./TrainersCards.js";
 
 const TrainersCards = () => {
   return (
-    <div className="flex justify-center items-center mt-[5rem] mb-[10rem] gap-[5rem] md1000:flex md1000:flex-col md1000:mt-[1rem] md1000:mb-[3rem]">
+    <div className="flex justify-center items-center mt-[5rem] mb-[5rem] gap-[5rem] md1000:flex md1000:flex-col md1000:mt-[1rem] md1000:mb-[3rem]">
       {trainersCards.map((card, id) => (
         <div key={id}>
           <img src={card.img} alt="trainer1" className=" grid-image-1" />
