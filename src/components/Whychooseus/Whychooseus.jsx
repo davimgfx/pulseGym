@@ -5,7 +5,7 @@ import MainButton from "../MainButton";
 const Whychooseus = () => {
   return (
     <section
-      className="whychooseus flex justify-center items-center py-[10rem] pb-[5rem]"
+      className="whychooseus flex justify-center items-center py-[10rem] pb-[5rem] min450:px-[3rem]"
       id="whyus">
       <div className="page-padding flex justify-center md1200:flex-col md1200:gap-[5rem] gap-[10rem]">
         <div>
