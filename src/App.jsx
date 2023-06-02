@@ -1,5 +1,6 @@
 import React from "react";
-import { About, Class, Hero, Navbar, Whychooseus, Trainers, Testimonials } from "./components";
+import { About, Class, Hero, Navbar, Whychooseus, Trainers, Testimonials, Gallery } from "./components";
+
 
 const App = () => (
   <>
@@ -9,7 +10,8 @@ const App = () => (
     <Class />
     <Whychooseus />
     <Trainers />
-    < Testimonials />
+    <Testimonials />
+    <Gallery />
   </>
 );
 
