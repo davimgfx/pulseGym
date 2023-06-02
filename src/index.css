@@ -189,6 +189,22 @@ body {
   letter-spacing: 0.3ch;
 }
 
+.card-top{
+  border-radius: 3rem;
+}
+
+.card-bottom::before {
+  content: "";
+  position: absolute;
+  bottom: 9rem;
+  left: 10%;
+  transform: translateX(-50%);
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 30px solid #777;
+  
+}
+
 .slick-slide > div {
   margin: 0 1rem;
 }
@@ -196,7 +212,31 @@ body {
   margin: 0 -1rem;
 }
 
-.slick-dots li button:before{
+.slick-dots li button:before {
   font-size: 1rem;
 }
 
+@media screen and (max-width: 620px) {
+  .card-bottom::before{
+    bottom: 7.5rem
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .card-bottom::before{
+    left: 9%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .card-bottom::before{
+    left: 6%;
+  }
+}
+
+
+@media screen and (max-width: 680px) {
+  .card-bottom::before{
+    left: 12%;
+  }
+}
