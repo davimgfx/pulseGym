@@ -256,6 +256,18 @@ body {
   height: 100%;
 }
 
+.bmi-section {
+  background-image: url('../src/assets/BMI/bmi-banner.png');
+  object-fit: cover;
+  background-size: cover;
+  background-position: center right;
+  background-repeat: no-repeat;
+}
+
+.container-bmi{
+  width: 100%;
+}
+
 @media screen and (max-width: 620px) {
   .card-bottom::before {
     bottom: 7.5rem;

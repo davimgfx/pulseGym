@@ -46,7 +46,7 @@ export const PeopleCarousel = [
     age: "25 years old"
   },
   {
-    msg: "The gym offers a wide range of facilities including sports, crossfit, yoga, and a well-equipped gymnasium, catering to various fitness preferences.",
+    msg: "The gym offers a wide range of facilities including sports, crossfit, yoga, and a well-equipped gymnasium.",
     img: person3,
     name: "Satya Nadella",
     age: "54 years old"
