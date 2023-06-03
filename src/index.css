@@ -269,6 +269,7 @@ body {
 }
 
 
+
 @media screen and (max-width: 620px) {
   .card-bottom::before {
     bottom: 7.5rem;

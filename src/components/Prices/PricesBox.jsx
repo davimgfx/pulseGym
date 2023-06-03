@@ -7,9 +7,9 @@ const PricesBox = () => {
       {PricesInfo.map((key, index) => (
         <div
           key={index}
-          className="prices-border justify-center flex-col text-center p-[5rem]">
-          <h2 className="text-[25px] font-bold">
-            <span className="text-[33px]">{key.name}</span> <br /> MemberShip
+          className="prices-border justify-center flex-col text-center p-[5rem] ">
+          <h2 className="text-[25px] font-bold ">
+            <span className="text-[33px] ">{key.name}</span> <br /> MemberShip
           </h2>
           <p className="p-6 w-[23rem] text-[13px]">{key.msg}</p>   
           <p className="text-[5rem] font-bold">$ {key.price}</p>
@@ -20,7 +20,7 @@ const PricesBox = () => {
             {key.benefits.map((benefit, index) => (
               <li key={index} className="text-[14px] mt-4 check ">
               <i class="fa-solid fa-check text-black bg-[#ffffff] p-[0.5rem] rounded-full"></i> {benefit}
-              <div className="h-1 bg-[#fffb03] my-[0.1rem] rounded transform translate-x-2"></div>
+              <div className="h-[0.2rem] bg-[#fffb03] my-[0.1rem] rounded transform translate-x-2"></div>
               </li>
             ))}
           </ul>
