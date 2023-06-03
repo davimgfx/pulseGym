@@ -2,15 +2,17 @@ import React from "react";
 import logo from "../../assets/logo/logo-footer.png";
 const Footer = () => {
   return (
-    <section className="mt-[2rem]" id="footer">
-      <div className="page-padding flex justify-center gap-[15rem]">
-        <div className="w-[30rem] mt-[2rem] mb-[5rem]">
+    <section
+      className="mt-[2rem] flex justify-center min800:mx-[auto]"
+      id="footer">
+      <div className="page-padding flex justify-center gap-[15rem] md1200:gap-[8rem] md1000:gap-[4rem] min800:flex-col mb-[5rem]">
+        <div className="w-[30rem] mt-[2rem] mb-[5rem] min800:w-[100%] min800:mb-[0rem] ">
           <img src={logo} alt="log footer" className="h-[10rem]" />
-          <p className="mt-[2rem] text-[14px]">
+          <p className="mt-[2rem] text-[14px] min800:w-[20rem]">
             At PulseGym, we are committed to helping you achieve your fitness
             goals in a dynamic and inspiring environment.
           </p>
-          <h2 className="text-[24px] ] font-bold mt-[2rem]">Opening Time</h2>
+          <h2 className="text-[24px] font-bold mt-[2rem]">Opening Time</h2>
           <div className="h-[0.5rem] bg-[#fffb03] my-[0.1rem] rounded transform translate-x-2 max-w-[9rem] "></div>
           <p className="mt-[2rem] text-[16px]">
             <strong>Monday-Friday</strong>: 5am - 11pm
@@ -56,7 +58,8 @@ const Footer = () => {
             <div>
               <h2 className="text-[18px] font-bold">Phone</h2>
               <p className="mt-[0.2rem] text-[13px] ">
-                +55 (123) 456 789<br />
+                +55 (123) 456 789
+                <br />
                 +55 (987) 654 321
               </p>
             </div>
