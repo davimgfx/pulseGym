@@ -16,7 +16,7 @@ const PricesBox = () => {
           <div className="flex justify-center">
             <MainButton text="ENROLL NOW"  colortext="black"/>
           </div>
-          <ul className="my-2 text-left flex gap-[2rem] items-center flex-col">
+          <ul className="my-2 text-left flex gap-[2rem] items-center flex-col font-bold">
             {key.benefits.map((benefit, index) => (
               <li key={index} className="text-[14px] mt-4 check ">
               <i class="fa-solid fa-check text-black bg-[#ffffff] p-[0.5rem] rounded-full"></i> {benefit}
