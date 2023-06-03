@@ -24,11 +24,11 @@ const Bmi = () => {
               <p className="mt-10 gap-3 text-[16px] font-medium flex items-center w-full ">
                 <span className="w-1/2">
                   Your BMI is: &nbsp;
-                  <span className="text-[#fffb03]">23</span>
+                  <span className="text-[#fffb03]">...</span>
                 </span>
                 <span className="w-1/2">
                   Your weight is: &nbsp;
-                  <span className="text-[#fffb03]">43</span>
+                  <span className="text-[#fffb03]">...</span>
                 </span>
               </p>
               <button
