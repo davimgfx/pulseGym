@@ -268,7 +268,17 @@ body {
   width: 100%;
 }
 
+.prices-border{
+  box-shadow: rgba(50, 50, 93, 0.25) 10px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
 
+.footer-section{
+  background-image: url("../src/assets/footer/footer-bg.png");
+  object-fit: cover;
+  background-size: cover;
+  background-position: center right;
+  background-repeat: no-repeat;
+}
 
 @media screen and (max-width: 620px) {
   .card-bottom::before {

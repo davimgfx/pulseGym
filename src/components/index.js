@@ -9,4 +9,5 @@ import Testimonials from "./Testimonials/Testimonials.jsx";
 import Gallery from "./Gallery/Gallery.jsx";
 import Bmi from "./Bmi/Bmi.jsx";
 import Prices from "./Prices/Prices.jsx";
-export { Navbar, Hero, MainButton, About, Class, Whychooseus, Trainers, Testimonials, Gallery, Bmi, Prices }
+import Footer from "./Footer/Footer.jsx"
+export { Navbar, Hero, MainButton, About, Class, Whychooseus, Trainers, Testimonials, Gallery, Bmi, Prices, Footer }

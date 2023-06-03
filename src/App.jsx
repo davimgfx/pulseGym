@@ -1,5 +1,5 @@
 import React from "react";
-import { About, Class, Hero, Navbar, Whychooseus, Trainers, Testimonials, Gallery, Bmi, Prices } from "./components";
+import { About, Class, Hero, Navbar, Whychooseus, Trainers, Testimonials, Gallery, Bmi, Prices, Footer } from "./components";
 
 
 const App = () => (
@@ -14,6 +14,7 @@ const App = () => (
     <Gallery />
     <Bmi />
     <Prices />
+    <Footer />
   </>
 );
 

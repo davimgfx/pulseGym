@@ -3,8 +3,8 @@ import titleBg from "../../assets/about-us/title-bg.svg";
 import PricesBox from "./PricesBox"
 const Prices = () => {
   return (
-    <section id="prices">
-      <div className="mt-[4rem] flex flex-col justify-center align-center ">
+    <section id="prices" className="border-b border-solid border-[#64646438] border-t-0 border-l-0 border-r-0 pb-[10rem]">
+      <div className="mt-[4rem] flex flex-col justify-center align-center  ">
         <img
           src={titleBg}
           alt="titleBg"
