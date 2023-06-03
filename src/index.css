@@ -251,22 +251,23 @@ body {
   height: 100%;
 }
 
-.grid-img-gallery img{
+.grid-img-gallery img {
   width: 100%;
   height: 100%;
 }
 
 .bmi-section {
-  background-image: url('../src/assets/BMI/bmi-banner.png');
+  background-image: url("../src/assets/BMI/bmi-banner.png");
   object-fit: cover;
   background-size: cover;
   background-position: center right;
   background-repeat: no-repeat;
 }
 
-.container-bmi{
+.container-bmi {
   width: 100%;
 }
+
 
 @media screen and (max-width: 620px) {
   .card-bottom::before {

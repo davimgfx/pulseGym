@@ -10,7 +10,7 @@ const Bmi = () => {
             <div className="h-3 bg-[#fffb03] my-[1rem] rounded "></div>
             <p className="text-[16px] text-[#a1a1a1] min620:text-white">
               Easily determine your body mass index with our accurate
-              calculation tool.
+              calculation tool.</p>
               <form className="flex w-full gap-6 h-[50px] mt-10 ">
                 <input
                   className="w-[50%] bg-transparent text-[14px] border-solid rounded-[1rem] border-2 border-[#ffffff] pl-6 min450:bg-white min450:text-black text-[#fffb03]"
@@ -37,7 +37,7 @@ const Bmi = () => {
               >
                 Calculate
               </button>
-            </p>
+            
           </h2>
         </div>
       </div>

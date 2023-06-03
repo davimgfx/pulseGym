@@ -1,5 +1,5 @@
 import React from "react";
-import { About, Class, Hero, Navbar, Whychooseus, Trainers, Testimonials, Gallery, Bmi } from "./components";
+import { About, Class, Hero, Navbar, Whychooseus, Trainers, Testimonials, Gallery, Bmi, Prices } from "./components";
 
 
 const App = () => (
@@ -13,6 +13,7 @@ const App = () => (
     <Testimonials />
     <Gallery />
     <Bmi />
+    <Prices />
   </>
 );
 
