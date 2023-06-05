@@ -10,7 +10,7 @@ import img8 from "../../assets/gallery/img8.jpg";
 
 const GalleryPhotos = () => {
   return (
-    <div className="gallery-grid-div md1000:flex md1000:flex-col md1000:mx-auto z-[50] max-w-[134rem]">
+    <div className="gallery-grid-div md1000:flex md1000:flex-col md1000:mx-auto z-[50] max-w-[125rem]">
       <div className="gallery-grid  md1000:w-[100%] md1000:mx-auto ">
         <div className="grid-img-gallery">
           <img src={img1} alt="man-basketball" />
