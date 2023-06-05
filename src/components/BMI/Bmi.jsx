@@ -46,7 +46,7 @@ const Bmi = () => {
             </p>
             <form className="flex w-full gap-6 h-[50px] mt-10 min620:flex-col">
               <input
-                className="w-[50%] bg-transparent text-[14px] border-solid rounded-[1rem] border-2 border-[#ffffff] pl-6 min450:bg-white min450:text-black text-[#fffb03]  min620:h-[100%] min375:w-[80%]"
+                className="w-[50%] bg-transparent text-[14px] border-solid rounded-[1rem] border-2 border-[#ffffff] pl-6 min450:bg-white min450:text-black text-[#fffb03]  min620:h-[100%] min375:w-[80%] "
                 type="text"
                 placeholder="Weight / kg"
                 value={weight}

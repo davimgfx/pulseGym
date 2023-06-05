@@ -7,6 +7,7 @@ export default {
       md1400: { max: "1400px" },
       md1300: { max: "1300px" },
       md1200: { max: "1200px" },
+      md1024: { max: "1024px" },
       md1000: { max: "1000px" },
       min800: { max: "800px" },
       min680: { max: "680px" },

@@ -42,7 +42,7 @@ const Footer = () => {
           <h2 className="text-[24px] font-bold mt-[3rem]">Contact Info</h2>
           <div className="h-[0.5rem] bg-[#fffb03] my-[0.1rem] rounded transform translate-x-2 max-w-[9rem] "></div>
           <div className="mt-[2rem] flex align-center justify-start gap-[2rem] ">
-            <i className="fa-sharp fa-solid fa-location-dot text-[32px] text-[#000000]"></i>
+            <i className="fa-sharp fa-solid fa-location-dot text-[25px] text-[#000000]"></i>
             <div>
               <h2 className="text-[18px] font-bold">Adress</h2>
               <p className="mt-[0.2rem] text-[13px] ">
@@ -52,7 +52,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="mt-[2rem] flex align-center justify-start gap-[2rem]">
-            <i className="fa-solid fa-phone text-[32px] text-[#000000]"></i>
+            <i className="fa-solid fa-phone text-[25px] text-[#000000]"></i>
             <div>
               <h2 className="text-[18px] font-bold">Phone</h2>
               <p className="mt-[0.2rem] text-[13px] ">
@@ -63,7 +63,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="mt-[2rem] flex align-center justify-start gap-[2rem]">
-            <i className="fa-earth-americas fa-solid  text-[32px] text-[#000000]"></i>
+            <i className="fa-earth-americas fa-solid  text-[25px] text-[#000000]"></i>
             <div>
               <h2 className="text-[18px] font-bold">Web</h2>
               <p className="mt-[0.2rem] text-[13px]">
