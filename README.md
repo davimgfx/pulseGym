@@ -1,5 +1,5 @@
 # PulseGym 🏋️‍♀️
-A gym project made with React.js and Tailwind
+A gym project made with React.js and Tailwind. I'm working yet, the project is not finished
 
 ## Screenshots of the Project
 
