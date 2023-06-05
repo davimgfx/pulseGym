@@ -298,12 +298,12 @@ body {
     display: flex;
   }
   .nav-close-btn{
-    position: fixed;
+    position: absolute;
     top: 2rem;
     right: 2rem;
     z-index: 101;
   }
-  
+
   .nav-phone {
     position: fixed;
     top: 0;
@@ -316,7 +316,7 @@ body {
     z-index: 100;
     padding: 2rem;
     gap: 2rem;
-    background: #777;
+    background: #37383A;
     margin: auto;
     flex-direction: column;
     transition: 1s;
