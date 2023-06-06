@@ -22,19 +22,19 @@ const Footer = () => {
         <div>
           <h2 className="text-[24px] font-bold mt-[3rem]">Usefull Link</h2>
           <div className="h-[0.5rem] bg-[#fffb03] my-[0.1rem] rounded transform translate-x-2 max-w-[9rem]"></div>
-          <p className="mt-[2rem] text-[16px] hover:font-bold cursor-pointer">
+          <p className="mt-[2rem] text-[16px] hover:font-bold cursor-pointer duration-500 ease">
             About Us
           </p>
-          <p className="mt-[2rem] text-[16px] hover:font-bold cursor-pointer">
+          <p className="mt-[2rem] text-[16px] hover:font-bold cursor-pointer duration-500 ease">
             Classes
           </p>
-          <p className="mt-[2rem] text-[16px] hover:font-bold cursor-pointer">
+          <p className="mt-[2rem] text-[16px] hover:font-bold cursor-pointer duration-500 ease">
             Schedule
           </p>
-          <p className="mt-[2rem] text-[16px] hover:font-bold cursor-pointer">
+          <p className="mt-[2rem] text-[16px] hover:font-bold cursor-pointer duration-500 ease">
             Pricing
           </p>
-          <p className="mt-[2rem] text-[16px] hover:font-bold cursor-pointer">
+          <p className="mt-[2rem] text-[16px] hover:font-bold cursor-pointer duration-500 ease">
             Contact
           </p>
         </div>

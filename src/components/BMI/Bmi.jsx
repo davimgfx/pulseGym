@@ -72,7 +72,7 @@ const Bmi = () => {
             </p>
             <button
               type="submit"
-              className="text-[15px] uppercase font-bold mt-10 bg-[#323232] w-[15rem] h-[5rem] hover:bg-[#fffb03] hover:text-black"
+              className="text-[15px] uppercase font-bold mt-10 bg-[#323232] w-[15rem] h-[5rem] hover:bg-[#fffb03] hover:text-black duration-500 ease"
               onClick={calculateBMI}>
               Calculate
             </button>
