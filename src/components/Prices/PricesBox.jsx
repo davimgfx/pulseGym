@@ -7,7 +7,7 @@ const PricesBox = () => {
       {PricesInfo.map((key, index) => (
         <div
           key={index}
-          className="prices-border justify-center flex-col text-center p-[5rem] md1200:mx-auto  min620:w-[80%]">
+          className="prices-border justify-center flex-col text-center p-[8rem] md1300:p-[6rem] min450:pt-[2rem] md1200:mx-auto  min620:w-[80%]">
           <h2 className="text-[25px] font-bold min375:text-[22px]">
             <span className="text-[33px] min375:text-[26px]">{key.name}</span> <br /> MemberShip
           </h2>

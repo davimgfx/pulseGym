@@ -3,7 +3,7 @@ import logo from "../../assets/logo/logo-footer.png";
 const Footer = () => {
   return (
     <section className="mt-[2rem] flex justify-center min375:justify-start min375:px-[0.2rem]" id="footer">
-      <div className="px-[2rem] flex justify-center gap-[10rem] mb-[5rem] md1000:flex-col md1000:gap-[2rem]">
+      <div className="px-[2rem] flex justify-center gap-[25rem] md1300:gap-[15rem] mb-[5rem] md1000:flex-col md1000:gap-[2rem]">
         <div className="w-[30rem] mt-[2rem] mb-[5rem] md1000:mb-0 min450:w-[100%]">
           <img src={logo} alt="log footer" className="h-[10rem]" />
           <p className="mt-[2rem] text-[14px] min800:w-[20rem] min450:hidden">

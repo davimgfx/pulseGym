@@ -124,7 +124,12 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 2rem;
-  max-width: 101rem;
+  max-width: 120rem;
+}
+
+.grid-image{
+  width: 100%;
+  height: 100%;
 }
 
 .grid-image:nth-child(1) {
@@ -136,6 +141,8 @@ body {
 }
 
 .grid-image-1 {
+  width: 100%;
+  height: 100%;
   filter: grayscale(100%);
   object-fit: cover;
   background-size: cover;

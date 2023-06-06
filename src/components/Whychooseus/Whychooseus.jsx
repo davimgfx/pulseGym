@@ -7,7 +7,7 @@ const Whychooseus = () => {
     <section
       className="whychooseus flex justify-center items-center py-[10rem] pb-[5rem] min450:px-[3rem]"
       id="whyus">
-      <div className="page-padding flex justify-center md1200:flex-col md1200:gap-[5rem] gap-[10rem]">
+      <div className="page-padding flex justify-center md1200:flex-col md1200:gap-[5rem] gap-[25rem] md1300:gap-[15rem]">
         <div>
           <a href="https://github.com/davimgfx" target="_blank">
             <img
@@ -39,30 +39,30 @@ const Whychooseus = () => {
               that helps you reach your specific goals.
             </p>
             <div className="flex flex-wrap gap-[6rem] justify-center items-center text-[26px] mt-[4rem] mb-[4rem]">
-              <div className="flex justify-center items-center gap-[2rem] text-white">
-                <i className="fa-solid fa-people-group hover:text-[#fffb00] ease-in duration-200 text-[4.3rem]"></i>
-                <p className="text-[18px] text-left font-bold min800:text-[20px] leading-thin">
+              <div className="flex justify-center items-center gap-[2rem] text-white  hover:text-[#fffb00] ease-in duration-200">
+                <i className="fa-solid fa-people-group text-[4.3rem]"></i>
+                <p className="text-[18px] text-left font-bold min800:text-[20px] leading-thin  ">
                   3 Days <br />
                   For Free
                 </p>
               </div>
-              <div className="flex justify-center items-center gap-[2rem] text-white cursor-pointer">
-                <i className="fa-solid fa-person hover:text-[#fffb00] ease-in duration-200 text-[5rem]"></i>
-                <p className="text-[18px] text-left font-bold min800:text-[20px] leading-thin">
+              <div className="flex justify-center items-center gap-[2rem] text-white hover:text-[#fffb00] ease-in duration-200">
+                <i className="fa-solid fa-person  text-[5rem]"></i>
+                <p className="text-[18px] text-left font-bold min800:text-[20px] leading-thin  ">
                   Free Fitness
                   <br />
                   Plan
                 </p>
               </div>
-              <div className="flex justify-center items-center gap-[2rem] text-white">
-                <i className="fa-solid fa-bottle-water hover:text-[#fffb00] ease-in duration-200 text-[5rem]"></i>
+              <div className="flex justify-center items-center gap-[2rem] text-white  hover:text-[#fffb00] ease-in duration-200">
+                <i className="fa-solid fa-bottle-water text-[5rem]"></i>
                 <p className="text-[18px] text-left font-bold min800:text-[20px] leading-thin">
                   Free Water
                   <br />
                 </p>
               </div>
-              <div className="flex justify-center items-center gap-[2rem] text-white">
-                <i className="fa-solid fa-lock hover:text-[#fffb00] ease-in duration-200 text-[3.6rem]"></i>
+              <div className="flex justify-center items-center gap-[2rem] text-white  hover:text-[#fffb00] ease-in duration-200">
+                <i className="fa-solid fa-lock text-[3.6rem]"></i>
                 <p className="text-[18px] text-left font-bold min800:text-[20px] leading-thin">
                   Free <br />
                   Gym Locker
