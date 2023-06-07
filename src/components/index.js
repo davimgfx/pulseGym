@@ -7,7 +7,7 @@ import Whychooseus from "./Whychooseus/Whychooseus.jsx";
 import Trainers from "./Trainers/Trainers.jsx";
 import Testimonials from "./Testimonials/Testimonials.jsx";
 import Gallery from "./Gallery/Gallery.jsx";
-import Bmi from "./BMI/Bmi.jsx";
+import Bmi from "./Bmi/Bmi.jsx";
 import Prices from "./Prices/Prices.jsx";
 import Footer from "./Footer/Footer.jsx"
 export { Navbar, Hero, MainButton, About, Class, Whychooseus, Trainers, Testimonials, Gallery, Bmi, Prices, Footer }
