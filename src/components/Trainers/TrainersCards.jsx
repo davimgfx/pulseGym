@@ -5,7 +5,7 @@ const TrainersCards = () => {
   return (
     <div className="flex justify-center items-center mt-[5rem] mb-[5rem] gap-[5rem] md1200:flex md1200:flex-col md1200:mt-[1rem] md1200:mb-[3rem]">
       {trainersCards.map((card, id) => (
-        <div key={id} className="border-black border-solid p-[2rem] min450:p-0 min450:border-0">
+        <div key={id} className="border-black border-solid p-[2rem] min450:p-0 min450:border-0 rounded-xl">
           <img src={card.img} alt="trainer1" className=" grid-image-1 border-black border-solid bg-[#fff200]  min375:border-0 min375:bg-transparent" />
           <div className="flex flex-col justify-center text-center mt-[2rem] ">
             <h2 className="text-[24px] font-bold">{card.name}</h2>
