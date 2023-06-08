@@ -29,7 +29,7 @@ const Navbar = () => {
       className={`flex flex-row items-center justify-between py-3 px-12 fixed top-0 left-0 right-0 z-50 ${
         scrollBackground ? "bg-[#37383A]" : "bg-transparent"
       } ${scrollBackground ? "navbar-border" : ""}`}>
-      <img src={logo} alt="logo" className="w-[150px] h-[75px] my-2 min375:h-[50px] min375:w-[125px]" />
+      <a href="/"><img src={logo} alt="logo" className="w-[150px] h-[75px] my-2 min375:h-[50px] min375:w-[125px]" /></a>
       <ul
         className="flex gap-9 text-white text-[16px] font-medium nav-phone"
         ref={navRef}>
