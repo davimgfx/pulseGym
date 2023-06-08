@@ -5,11 +5,12 @@ import "./index.css";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-import { Home, About, Classes, Schedule, Pricing, Login, Contact } from "./Pages";
+import { Home, About, Classes, Schedule, Pricing, Login, Contact, ErrorPage } from "./Pages";
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+    errorElement: <ErrorPage />,
     children: [
       {
         path: "/",

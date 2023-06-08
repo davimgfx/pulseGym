@@ -2,6 +2,7 @@ import React from "react";
 import titleBg from "../../assets/about-us/title-bg.svg";
 import imgvideo from "../../assets/whychooseus/imgvideo.png";
 import MainButton from "../MainButton";
+import {Link} from "react-router-dom"
 const Whychooseus = () => {
   return (
     <section
@@ -70,7 +71,9 @@ const Whychooseus = () => {
               </div>
             </div>
             <div className="flex justify-center items-center">
-              <MainButton text="Our classes" colortext="white" />
+              <Link to="classes">
+                <MainButton text="Our classes" colortext="white" />
+              </Link>
             </div>
           </div>
         </div>

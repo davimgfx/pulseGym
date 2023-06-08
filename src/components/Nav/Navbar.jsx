@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
+import { Link } from "react-router-dom";
 import logo from "../../assets/logo/logo.png";
 import { navLinks } from "./navlinks";
 
@@ -24,12 +25,24 @@ const Navbar = () => {
     navRef.current.classList.toggle("responsive_nav");
   };
 
+  const goTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <nav
       className={`flex flex-row items-center justify-between py-3 px-12 fixed top-0 left-0 right-0 z-50 ${
         scrollBackground ? "bg-[#37383A]" : "bg-transparent"
       } ${scrollBackground ? "navbar-border" : ""}`}>
-      <a href="/"><img src={logo} alt="logo" className="w-[150px] h-[75px] my-2 min375:h-[50px] min375:w-[125px]" /></a>
+      <img
+        src={logo}
+        alt="logo"
+        className="w-[150px] h-[75px] my-2 min375:h-[50px] min375:w-[125px]"
+        onClick={goTop}
+      />
       <ul
         className="flex gap-9 text-white text-[16px] font-medium nav-phone"
         ref={navRef}>
@@ -37,7 +50,7 @@ const Navbar = () => {
           <li
             key={nav.id}
             className="cursor-pointer hover:text-[#fff336] ease-in duration-200">
-            <a href={nav.path}>{nav.title}</a>
+            <Link to={nav.path}>{nav.title}</Link>
           </li>
         ))}
         <button onClick={showNavbar} className="nav-btn nav-close-btn">
@@ -49,15 +62,17 @@ const Navbar = () => {
           <i className="fa-solid fa-bars hover:text-[#fff336] cursor-pointer text-white text-4xl px-4 ease-in duration-200"></i>
         </button>
 
-        <a href="login"><i className="fa-solid fa-user hover:text-[#fff336] cursor-pointer text-white text-4xl px-4 mr-5 ease-in duration-200 min375:hidden"></i></a>
-        <a href="classes">
+        <Link to="login">
+          <i className="fa-solid fa-user hover:text-[#fff336] cursor-pointer text-white text-4xl px-4 mr-5 ease-in duration-200 min375:hidden"></i>
+        </Link>
+        <Link to="contact">
           <div className="border-solid border-2 border-white p-2 rounded-md min620:hidden flex items-center cursor-pointer">
             <i className="fa-solid fa-magnifying-glass bg-[#fff336] text-black text-2xl py-3 px-4 rounded-md"></i>
             <h3 className="text-white text-[14px] font-bold uppercase ml-4 mr-8 tracking-wider">
               find your class
             </h3>
           </div>
-        </a>
+        </Link>
       </div>
     </nav>
   );

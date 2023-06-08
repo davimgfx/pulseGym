@@ -2,6 +2,7 @@ import React from "react";
 import MainButton from "../MainButton";
 import TrainersCards from "./TrainersCards.jsx";
 import titleBg  from "../../assets/about-us/title-bg.svg";
+import {Link} from "react-router-dom";
 
 const Trainers = () => {
   return (
@@ -22,7 +23,9 @@ const Trainers = () => {
         </div>
           <TrainersCards />
         <div className="mx-auto mb-[2rem]">
-          <MainButton text="Our classes" colortext="black"/>
+          <Link to="classes">
+            <MainButton text="Our classes" colortext="black"/>
+          </Link>
         </div>
       </div>
       

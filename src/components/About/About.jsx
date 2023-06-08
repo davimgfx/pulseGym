@@ -3,7 +3,7 @@ import manRunner from "../../assets/about-us/runner.png"
 import titleBg from "../../assets/about-us/title-bg.svg"
 import MainButton from "../MainButton";
 import AboutCards from "./AboutCards";
-
+import {Link} from "react-router-dom"
 const About = () => {
   return (
     <>
@@ -54,7 +54,7 @@ const About = () => {
                   </p>
                 </div>
               </div>
-              <MainButton text="Our classes" colortext="black" />
+              <Link to="classes"><MainButton text="Our classes" colortext="black" /></Link>
             </div>
             <div className="relative  md1200:hidden">
               <img

@@ -1,8 +1,11 @@
 import React from "react";
 import logo from "../../assets/logo/logo-footer.png";
+import { Link } from "react-router-dom"
 const Footer = () => {
   return (
-    <section className="mt-[2rem] flex justify-center min375:justify-start min375:px-[0.2rem]" id="footer">
+    <section
+      className="mt-[2rem] flex justify-center min375:justify-start min375:px-[0.2rem]"
+      id="footer">
       <div className="px-[2rem] flex justify-center gap-[25rem] md1300:gap-[15rem] mb-[5rem] md1000:flex-col md1000:gap-[2rem]">
         <div className="w-[30rem] mt-[2rem] mb-[5rem] md1000:mb-0 min450:w-[100%]">
           <img src={logo} alt="log footer" className="h-[10rem]" />
@@ -13,30 +16,49 @@ const Footer = () => {
           <h2 className="text-[24px] font-bold mt-[2rem]">Opening Time</h2>
           <div className="h-[0.5rem] bg-[#fffb03] my-[0.1rem] rounded transform translate-x-2 max-w-[9rem] "></div>
           <p className="mt-[2rem] text-[16px]">
-            <strong>Monday-Friday</strong>: <br className="hidden min450:flex"/>5am - 11pm
+            <strong>Monday-Friday</strong>:{" "}
+            <br className="hidden min450:flex" />
+            5am - 11pm
           </p>
           <p className="mt-[2rem] text-[16px]">
-            <strong>Saturday-Sunday</strong>:  <br className="hidden min450:flex"/>9am - 9pm
+            <strong>Saturday-Sunday</strong>:{" "}
+            <br className="hidden min450:flex" />
+            9am - 9pm
           </p>
         </div>
         <div>
           <h2 className="text-[24px] font-bold mt-[3rem]">Usefull Link</h2>
           <div className="h-[0.5rem] bg-[#fffb03] my-[0.1rem] rounded transform translate-x-2 max-w-[9rem]"></div>
-          <p className="mt-[2rem] text-[16px] hover:font-bold cursor-pointer duration-500 ease">
-            About Us
-          </p>
-          <p className="mt-[2rem] text-[16px] hover:font-bold cursor-pointer duration-500 ease">
-            Classes
-          </p>
-          <p className="mt-[2rem] text-[16px] hover:font-bold cursor-pointer duration-500 ease">
-            Schedule
-          </p>
-          <p className="mt-[2rem] text-[16px] hover:font-bold cursor-pointer duration-500 ease">
-            Pricing
-          </p>
-          <p className="mt-[2rem] text-[16px] hover:font-bold cursor-pointer duration-500 ease">
-            Contact
-          </p>
+          <Link to="about">
+            <p className="mt-[2rem] text-[16px] hover:font-bold cursor-pointer duration-500 ease">
+              About Us
+            </p>
+          </Link>
+          <Link to="classes">
+            <p className="mt-[2rem] text-[16px] hover:font-bold cursor-pointer duration-500 ease">
+              Classes
+            </p>
+          </Link>
+          <Link to="schedule">
+            <p className="mt-[2rem] text-[16px] hover:font-bold cursor-pointer duration-500 ease">
+              Schedule
+            </p>
+          </Link>
+          <Link to="pricing">
+            <p className="mt-[2rem] text-[16px] hover:font-bold cursor-pointer duration-500 ease">
+              Pricing
+            </p>
+          </Link>
+          <Link to="login">
+            <p className="mt-[2rem] text-[16px] hover:font-bold cursor-pointer duration-500 ease">
+              Login
+            </p>
+          </Link>
+          <Link to="contact">
+            <p className="mt-[2rem] text-[16px] hover:font-bold cursor-pointer duration-500 ease">
+              Contact
+            </p>
+          </Link>
         </div>
         <div className="">
           <h2 className="text-[24px] font-bold mt-[3rem]">Contact Info</h2>
@@ -46,7 +68,8 @@ const Footer = () => {
             <div>
               <h2 className="text-[18px] font-bold">Adress</h2>
               <p className="mt-[0.2rem] text-[13px] ">
-                123B, Central Street <br className="hidden min450:flex"/> Main road <br />
+                123B, Central Street <br className="hidden min450:flex" /> Main
+                road <br />
                 Belix Tower, New York, USA
               </p>
             </div>
@@ -67,7 +90,9 @@ const Footer = () => {
             <div>
               <h2 className="text-[18px] font-bold">Web</h2>
               <p className="mt-[0.2rem] text-[13px]">
-                https://github.com/<br className="hidden min450:flex"/>davimgfx 
+                https://github.com/
+                <br className="hidden min450:flex" />
+                davimgfx
               </p>
             </div>
           </div>

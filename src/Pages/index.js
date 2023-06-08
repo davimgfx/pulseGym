@@ -5,4 +5,5 @@ import Schedule from "./Schedule.jsx";
 import Pricing from "./Pricing.jsx";
 import Login from "./Login.jsx";
 import Contact from "./Contact.jsx";
-export { Home, About, Classes, Schedule, Pricing, Login, Contact }
+import ErrorPage from "./ErrorPage.jsx";
+export { Home, About, Classes, Schedule, Pricing, Login, Contact, ErrorPage }
