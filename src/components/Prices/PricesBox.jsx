@@ -19,7 +19,7 @@ const PricesBox = () => {
           <ul className="my-2 text-left flex gap-[2rem] items-center flex-col font-bold">
             {key.benefits.map((benefit, index) => (
               <li key={index} className="text-[14px] mt-4 check min375:text-[12px]">
-              <i class="fa-solid fa-check text-black bg-[#ffffff] p-[0.5rem] rounded-full"></i> {benefit}
+              <i className="fa-solid fa-check text-black bg-[#ffffff] p-[0.5rem] rounded-full"></i> {benefit}
               <div className="h-[0.2rem] bg-[#fffb03] my-[0.1rem] rounded transform translate-x-2"></div>
               </li>
             ))}

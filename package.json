@@ -2,7 +2,7 @@
   "homepage": "https://davimgfx.github.io/pulseGym/",
   "name": "pulsegym",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -17,6 +17,7 @@
     "@heroicons/react": "^2.0.18",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.12.0",
     "react-slick": "^0.29.0",
     "slick-carousel": "^1.8.1"
   },

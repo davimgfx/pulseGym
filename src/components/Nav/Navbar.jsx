@@ -37,7 +37,7 @@ const Navbar = () => {
           <li
             key={nav.id}
             className="cursor-pointer hover:text-[#fff336] ease-in duration-200">
-            <a href="#">{nav.title}</a>
+            <a href={nav.path}>{nav.title}</a>
           </li>
         ))}
         <button onClick={showNavbar} className="nav-btn nav-close-btn">
@@ -49,13 +49,15 @@ const Navbar = () => {
           <i className="fa-solid fa-bars hover:text-[#fff336] cursor-pointer text-white text-4xl px-4 ease-in duration-200"></i>
         </button>
 
-        <i className="fa-solid fa-user hover:text-[#fff336] cursor-pointer text-white text-4xl px-4 mr-5 ease-in duration-200 min375:hidden"></i>
-        <div className="border-solid border-2 border-white p-2 rounded-md min620:hidden flex items-center cursor-pointer">
-          <i className="fa-solid fa-magnifying-glass bg-[#fff336] text-black text-2xl py-3 px-4 rounded-md"></i>
-          <h3 className="text-white text-[14px] font-bold uppercase ml-4 mr-8 tracking-wider">
-            find your class
-          </h3>
-        </div>
+        <a href="login"><i className="fa-solid fa-user hover:text-[#fff336] cursor-pointer text-white text-4xl px-4 mr-5 ease-in duration-200 min375:hidden"></i></a>
+        <a href="classes">
+          <div className="border-solid border-2 border-white p-2 rounded-md min620:hidden flex items-center cursor-pointer">
+            <i className="fa-solid fa-magnifying-glass bg-[#fff336] text-black text-2xl py-3 px-4 rounded-md"></i>
+            <h3 className="text-white text-[14px] font-bold uppercase ml-4 mr-8 tracking-wider">
+              find your class
+            </h3>
+          </div>
+        </a>
       </div>
     </nav>
   );

@@ -16,7 +16,7 @@ const Testimonials = () => {
           Testimonials
         </h2>
         <div className="mx-[auto] relative right-[35rem] md1300:right-0 min620:static min620:flex min620:text-center">
-          <h2 className="font-bold text-[40px] uppercase min450:text-[32px] min620:text-[36px] text-left hero-h1 mt-[2rem]">
+          <h2 className="font-bold text-[40px] uppercase min450:text-[32px] min620:text-[36px] text-center hero-h1 mt-[2rem]">
             WHAT OUR <br className="hidden min375:block" />
             MEMBER SAY
           </h2>
