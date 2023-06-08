@@ -1,8 +1,10 @@
 import React from 'react'
-
+import { StarterBanner } from '../components'
 const Login = () => {
   return (
-    <div className='bg-black w-[100%] h-[100vh]'>About</div>
+    <div className=' w-[100%] h-[100vh]'>
+      <StarterBanner title="Login"/>
+    </div>
   )
 }
 
