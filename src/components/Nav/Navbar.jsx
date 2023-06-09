@@ -66,7 +66,7 @@ const Navbar = () => {
           <i className="fa-solid fa-user hover:text-[#fff336] cursor-pointer text-white text-4xl px-4 mr-5 ease-in duration-200 min375:hidden"></i>
         </Link>
         <Link to="contact">
-          <div className="border-solid border-2 border-white p-2 rounded-md min620:hidden flex items-center cursor-pointer">
+          <div className="border-solid border-2 border-white p-2 rounded-md min620:hidden flex items-center cursor-pointer  hover:translate-x-3 duration-500 ease">
             <i className="fa-solid fa-magnifying-glass bg-[#fff336] text-black text-2xl py-3 px-4 rounded-md"></i>
             <h3 className="text-white text-[14px] font-bold uppercase ml-4 mr-8 tracking-wider">
               find your class
