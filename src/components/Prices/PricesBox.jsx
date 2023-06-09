@@ -2,7 +2,7 @@ import React from "react";
 import { PricesInfo } from "./PricesInformation.js";
 import MainButton from "../MainButton.jsx";
 import { Link } from "react-router-dom"
-const PricesBox = () => {
+const PricesBox = ({link}) => {
   return (
     <div className="flex mx-auto gap-[3rem] justify-center mt-[2rem] md1200:flex-col ">
       {PricesInfo.map((key, index) => (
@@ -15,7 +15,7 @@ const PricesBox = () => {
           <p className="p-6 w-[23rem] text-[13px] md1200:hidden">{key.msg}</p>   
           <p className="text-[5rem] font-bold min375:text-[35px]">$ {key.price}</p>
           <div className="flex justify-center">
-            <Link to="pricing">
+            <Link to="../pricing">
               <MainButton text="ENROLL NOW"  colortext="black"/>
             </Link>
           </div>

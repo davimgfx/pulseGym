@@ -1,10 +1,11 @@
 import React from 'react'
-import { StarterBanner } from '../components'
+import { StarterBanner, SingIn } from '../components'
 const Login = () => {
   return (
-    <div className=' w-[100%] h-[100vh]'>
+    <section>
       <StarterBanner title="Login"/>
-    </div>
+      <SingIn />
+    </section>
   )
 }
 

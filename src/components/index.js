@@ -11,11 +11,14 @@ import Bmi from "./BMI/Bmi.jsx";
 import Prices from "./Prices/Prices.jsx";
 import StarterBanner from "./StarterBanner/StarterBanner.jsx";
 import Footer from "./Footer/Footer.jsx";
+import AboutSection from "./About/AboutSection.jsx";
+import SingIn from "./Sign/SingIn.jsx"
 export {
   Navbar,
   Hero,
   MainButton,
   About,
+  AboutSection,
   Class,
   Whychooseus,
   Trainers,
@@ -25,4 +28,5 @@ export {
   Prices,
   Footer,
   StarterBanner,
+  SingIn
 };

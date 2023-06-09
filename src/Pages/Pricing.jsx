@@ -1,11 +1,12 @@
-import React from 'react'
-import { StarterBanner } from '../components'
+import React from "react";
+import { Prices, StarterBanner } from "../components";
 const Pricing = () => {
   return (
-    <div className='bg-black w-[100%] h-[100vh]'>
+    <section>
       <StarterBanner title="Pricing"/>
-    </div>
-  )
-}
+      <Prices/>
+    </section>
+  );
+};
 
-export default Pricing
+export default Pricing;
