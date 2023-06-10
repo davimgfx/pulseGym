@@ -114,6 +114,41 @@ body {
   background-repeat: no-repeat;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+  max-width: 120rem;
+}
+
+.grid-image {
+  width: 100%;
+  height: 100%;
+}
+
+.grid-image:nth-child(1) {
+  grid-column: span 2;
+}
+
+.grid-image:nth-child(2) {
+  grid-column: span 2;
+}
+
+.grid-image-1 {
+  width: 100%;
+  height: 100%;
+  filter: grayscale(100%);
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  transition: ease 0.5s;
+}
+
+.grid-image-1:hover {
+  filter: grayscale(0%);
+}
+
 .whychooseus {
   background-image: url("../src/assets/whychooseus/whychoose-bg.png");
   width: 100%;

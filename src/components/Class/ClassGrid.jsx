@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { ClassesInfo } from "./ClassesInfo";
-import "./ClassGrid-style.css"
 const ClassGrid = () => {
   return (
     <div className="grid-container md1000:flex md1000:flex-col md1000:gap-[2rem] mt-[2rem] ">
