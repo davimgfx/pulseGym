@@ -337,12 +337,43 @@ body {
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
-.footer-section {
-  background-image: url("../src/assets/footer/footer-bg.png");
+.box-bg-classes, .yoga-bg-classes, .crossfit-bg-classes, 
+.basktball-bg-classes, .workout-bg-classes, .runner-bg-classes {
   object-fit: cover;
   background-size: cover;
   background-position: center right;
   background-repeat: no-repeat;
+}
+
+.box-bg-classes{
+  background-image: url("../src/assets/class/class1.png");
+  
+}
+
+.yoga-bg-classes{
+  background-image: url("../src/assets/class/class2.png");
+ 
+}
+
+.crossfit-bg-classes{
+  background-image: url("../src/assets/class/class3.png");
+ 
+}
+
+.basktball-bg-classes{
+  background-image: url("../src/assets/class/class4.png");
+}
+
+.workout-bg-classes{
+  background-image: url("../src/assets/class/class5.png");
+}
+
+.runner-bg-classes{
+  background-image: url("../src/assets/class/class6.png");
+}
+
+.footer-section {
+  background-image: url("../src/assets/footer/footer-bg.png");
 }
 
 @media screen and (max-width: 1200px) {

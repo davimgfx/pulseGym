@@ -16,8 +16,8 @@ const About = () => {
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    speed: 2000,
-    autoplaySpeed: 2000,
+    speed: 3000,
+    autoplaySpeed: 3000,
     cssEase: "linear",
     responsive: [
       {
@@ -43,6 +43,7 @@ const About = () => {
   return (
     <section className="">
       <StarterBanner title="About US" />
+    
       <div className="my-[8rem] page-padding">
         <AboutSection
           icons="false"

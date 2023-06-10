@@ -2,7 +2,7 @@ import React from "react";
 import { StarterBanner } from "../components";
 const Contact = () => {
   return (
-    <section>
+    <section className="">
       <StarterBanner title="Contact US" />
       <div className="flex justify-center">
         <div className="page-padding py-[4rem] flex justify-center gap-[2rem] md1200:flex-col">
@@ -20,30 +20,30 @@ const Contact = () => {
                 with you to create a personalized fitness and nutrition plan
                 that helps you reach your specific goals.
               </p>
-              <h2 className="text-[24px] font-bold mt-[2rem]">Opening Time</h2>
+              <h2 className="text-[24px] font-bold mt-[2rem] text-black">Opening Time</h2>
               <div className="h-[0.5rem] bg-[#fffb03] my-[0.1rem] rounded transform translate-x-2 max-w-[9rem] md1200:mx-[auto]"></div>
             </div>
             <div>
-              <p className="mt-[2rem] text-[16px]">
+              <p className="mt-[2rem] text-[16px] text-black">
                 <strong>Monday-Friday</strong>:{" "}
                 <br className="hidden min450:flex" />
                 5am - 11pm
               </p>
-              <p className="mt-[2rem] text-[16px]">
+              <p className="mt-[2rem] text-[16px] text-black">
                 <strong>Saturday-Sunday</strong>:{" "}
                 <br className="hidden min450:flex" />
                 9am - 9pm
               </p>
             </div>
             <div>
-              <h2 className="text-[24px] font-bold mt-[2rem]">Where We Are</h2>
+              <h2 className="text-[24px] font-bold mt-[2rem] text-black">Where We Are</h2>
               <div className="h-[0.5rem] bg-[#fffb03] my-[0.1rem] rounded transform translate-x-2 max-w-[9rem] md1200:mx-[auto]"></div>
-              <p className="mt-[2rem] text-[16px]">
+              <p className="mt-[2rem] text-[16px] text-black">
                 123B, Central Street <br />
                 Main road Belix Tower
                 <br /> New York, USA
               </p>
-              <h2 className="text-[24px] font-bold mt-[2rem]">Follow US</h2>
+              <h2 className="text-[24px] font-bold mt-[2rem] text-black">Follow US</h2>
               <div className="h-[0.5rem] bg-[#fffb03] my-[0.1rem] rounded transform translate-x-2 max-w-[9rem] md1200:mx-[auto]" ></div>
               <div className="py-[1rem] flex gap-[0.5rem] md1200:justify-center">
                 <i className="fa-brands fa-instagram text-4xl cursor-pointer  hover:bg-[#fffb00] p-[0.5rem] rounded-full ease-in duration-200"></i>

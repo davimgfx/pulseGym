@@ -33,7 +33,7 @@ const SignIn = () => {
             </p>
           </a>
           <a href="">
-            <p className="text-[#ffffffbc] text-[1.4rem] mt-3 text-center">
+            <p className="text-white text-[1.5rem] text-center mt-[2rem] hero-p font-bold">
               Forget your password?
             </p>
           </a>
