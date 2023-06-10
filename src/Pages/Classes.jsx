@@ -8,7 +8,7 @@ const Classes = () => {
       <div className="container gap-12 page-padding py-[10rem] md1000:grid-cols-2 min620:grid-cols-1  grid-cols-3 grid-rows-2 text-left grid">
         {ClassesDays.map((item, index) => (
           <div
-            className={`${item.name.toLowerCase()}-bg-classes card-1  h-[46rem] rounded-[3rem] relative`}
+            className={`${item.name.toLowerCase()}-bg-classes card-1  h-[46rem] rounded-[3rem] relative image-border`}
             key={index}>
             <div className="card-top p-[2rem] h-[17rem] min620:h-[14rem]">
               <h2 className="text-white font-bold text-[4rem] absolute bottom-[10rem] left-[2rem] class-h2 min375:text-[3rem]">
