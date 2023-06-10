@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 const SignIn = () => {
   return (
     <>
@@ -22,21 +23,24 @@ const SignIn = () => {
             className="text-[1.7rem] px-8 py-4 mb-10 w-full"
             placeholder="password"
             type="password"></input>
-          <button
-            type="submit"
-            className="bg-[#37383A] border-white border-solid text-white py-4 font-bold text-[2rem] w-full mt-10  hover:border-[#fffb03]  duration-500 ease hero-p">
-            Login
-          </button>
-          <a href="">
+          <Link to="../../pulseGym/login">
+            <button
+              className="bg-[#37383A] border-white border-solid text-white py-4 font-bold text-[2rem] w-full mt-10  hover:border-[#fffb03]  duration-500 ease hero-p">
+              Login
+            </button>
+          </Link>
+          <Link to="/pulseGym/contact">
             <p className="text-white text-[1.5rem] text-center mt-[2rem]">
               New to Pulse Gym? <span className="hero-p font-bold">Sign Up</span>
             </p>
-          </a>
-          <a href="">
-            <p className="text-white text-[1.5rem] text-center mt-[2rem] hero-p font-bold">
-              Forget your password?
-            </p>
-          </a>
+          </Link>
+          
+            <Link to="/pulseGym/contact">  
+                <p className="text-white text-[1.5rem] text-center mt-[2rem] hero-p font-bold">
+                  Forget your password?
+                </p>
+            </Link>
+          
         </form>
       </div>
     </>

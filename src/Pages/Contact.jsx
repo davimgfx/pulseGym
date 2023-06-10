@@ -1,5 +1,6 @@
 import React from "react";
 import { StarterBanner } from "../components";
+import { Link } from "react-router-dom"
 const Contact = () => {
   return (
     <section className="">
@@ -99,11 +100,13 @@ const Contact = () => {
             <textarea
               placeholder="Comment"
               className="w-full py-[12px] px-[20px] h-[140px] text-[14px] border-solid border-gray-400 outline-none mb-8"></textarea>
-            <button
-              type="submit"
-              className="text-[15px] uppercase font-bold mt-2 text-white bg-[#323232] w-[15rem] h-[5rem] hover:bg-[#fffb03] hover:text-black duration-500 ease mx-auto">
-              Submit Now
-            </button>
+            <Link to="../../pulseGym/contact">
+              <button
+                type="submit"
+                className="text-[15px] uppercase font-bold mt-2 text-white bg-[#323232] w-[15rem] h-[5rem] hover:bg-[#fffb03] hover:text-black duration-500 ease mx-auto">
+                Submit Now
+              </button>
+            </Link>
           </form>
         </div>
       </div>
