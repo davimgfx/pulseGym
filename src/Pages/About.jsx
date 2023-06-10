@@ -49,7 +49,7 @@ const About = () => {
           icons="false"
           title="We Will Give You Strength and Health"
           paragraph="
-Achieve your best health and physique with our comprehensive program meticulously designed to propel you towards your ultimate fitness goals."
+Achieve your best health and physique with our comprehensive program meticulously designed to propel you towards your ultimate fitness goals." link="../pulseGym/classes"
         />
       </div>
       <div className="mt-[4rem] flex flex-col justify-center align-center ">

@@ -5,7 +5,7 @@ import manRunner from "../../assets/about-us/runner.png";
 import titleBg from "../../assets/about-us/title-bg.svg";
 import MainButton from "../MainButton";
 
-const AboutSection = ({icons, title, paragraph}) => {
+const AboutSection = ({icons, title, paragraph, link}) => {
   return (
     <div className="container page-padding">
       <div className=" grid grid-cols-[50fr,50fr] gap-[1rem] md1200:grid-cols-1 md1200:items-center md1200:flex md1200:flex-col md1200:text-center md1200:w-[full] relative ">
@@ -47,7 +47,7 @@ const AboutSection = ({icons, title, paragraph}) => {
               </p>
             </div>
           </div>
-          <Link to="classes">
+          <Link to={link}>
             <MainButton text="Our classes" colortext="black" />
           </Link>
         </div>
