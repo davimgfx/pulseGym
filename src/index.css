@@ -338,12 +338,13 @@ body {
 }
 
 .box-bg-classes, .yoga-bg-classes, .crossfit-bg-classes, 
-.basktball-bg-classes, .workout-bg-classes, .runner-bg-classes {
+.baskteball-bg-classes, .workout-bg-classes, .runner-bg-classes, .aerobic-bg-classes {
   object-fit: cover;
   background-size: cover;
-  background-position: center right;
+  background-position: center center;
   background-repeat: no-repeat;
 }
+
 
 .box-bg-classes{
   background-image: url("../src/assets/class/class1.png");
@@ -360,7 +361,7 @@ body {
  
 }
 
-.basktball-bg-classes{
+.basketball-bg-classes{
   background-image: url("../src/assets/class/class4.png");
 }
 
@@ -370,6 +371,18 @@ body {
 
 .runner-bg-classes{
   background-image: url("../src/assets/class/class6.png");
+}
+
+.aerobic-bg-classes{
+  background-image: url("../src/assets/class/class7.png");
+}
+
+.mma-bg-classes{
+  background-image: url("../src/assets/class/class8.png");
+}
+
+.stretching-bg-classes{
+  background-image: url("../src/assets/class/class9.png");
 }
 
 .footer-section {

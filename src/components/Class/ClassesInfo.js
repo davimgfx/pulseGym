@@ -36,4 +36,5 @@ export const ClassesInfo = [
     name: "Yoga",
     date: "Sat: 1:00PM-2:00PM",
   },
+
 ];

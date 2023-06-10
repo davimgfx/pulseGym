@@ -13,6 +13,7 @@ import StarterBanner from "./StarterBanner/StarterBanner.jsx";
 import Footer from "./Footer/Footer.jsx";
 import AboutSection from "./About/AboutSection.jsx";
 import SingIn from "./Sign/SingIn.jsx"
+import { ClassesDays } from "./Class/ClassesDays.js";
 export {
   Navbar,
   Hero,
@@ -28,5 +29,6 @@ export {
   Prices,
   Footer,
   StarterBanner,
-  SingIn
+  SingIn,
+  ClassesDays,
 };
