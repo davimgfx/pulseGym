@@ -3,7 +3,7 @@ import { ClassesDays, StarterBanner } from "../components";
 
 const Classes = () => {
   return (
-    <>
+    <section>
       <StarterBanner title="Classes" />
       <div className="container gap-12 page-padding py-[10rem] md1000:grid-cols-2 min620:grid-cols-1  grid-cols-3 grid-rows-2 text-left grid">
         {ClassesDays.map((item, index) => (
@@ -25,7 +25,7 @@ const Classes = () => {
           </div>
         ))}
       </div>
-    </>
+    </section>
   );
 };
 

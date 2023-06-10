@@ -284,6 +284,11 @@ body {
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
+.select-button{
+  background:#fcec18;
+  color: black;
+}
+
 .footer-section {
   background-image: url("../src/assets/footer/footer-bg.png");
 }

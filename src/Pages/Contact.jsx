@@ -103,7 +103,7 @@ const Contact = () => {
             <Link to="../../pulseGym/contact">
               <button
                 type="submit"
-                className="text-[15px] uppercase font-bold mt-2 text-white bg-[#323232] w-[15rem] h-[5rem] hover:bg-[#fffb03] hover:text-black duration-500 ease mx-auto">
+                className="text-[15px] uppercase font-bold mt-2 text-white bg-[#323232] w-[15rem] h-[5rem] hover:bg-[#fffb03] hover:text-black duration-500 ease">
                 Submit Now
               </button>
             </Link>

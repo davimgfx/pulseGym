@@ -14,6 +14,7 @@ import Footer from "./Footer/Footer.jsx";
 import AboutSection from "./About/AboutSection.jsx";
 import SingIn from "./Sign/SingIn.jsx"
 import { ClassesDays } from "./Class/ClassesDays.js";
+import { ScheduleInfo } from "./SheduleProgram/SheduleInfo.js"
 export {
   Navbar,
   Hero,
@@ -31,4 +32,5 @@ export {
   StarterBanner,
   SingIn,
   ClassesDays,
+  ScheduleInfo 
 };
