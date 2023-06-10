@@ -9,7 +9,8 @@ A gym website project made with React.js and Tailwind. I'm working yet, the proj
 ### About Us 
 ![About Us](https://github.com/davimgfx/pulseGym/assets/118557337/6ee190d6-7078-4212-8022-37d11c87124e)
 
-### Classes (Working)
+### Classes
+![Classes](https://github.com/davimgfx/pulseGym/assets/118557337/7c3f1da2-76cc-4691-a8af-e65a130397bd)
 
 ### Schedule (Working)
 
