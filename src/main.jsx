@@ -13,31 +13,31 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
     children: [
       {
-        path: "/",
+        path: "pulseGym",
         element: <Home/>
       },
       {
-        path: "about",
+        path: "pulseGym/about",
         element: <About />
       },
       {
-        path: "classes",
+        path: "pulseGym/classes",
         element: <Classes />
       },
       {
-        path: "schedule",
+        path: "pulseGym/schedule",
         element: <Schedule />
       },
       {
-        path: "pricing",
+        path: "pulseGym/pricing",
         element: <Pricing />
       },
       {
-        path: "login",
+        path: "pulseGym/login",
         element: <Login />
       },
       {
-        path: "contact",
+        path: "pulseGym/contact",
         element: <Contact />
       },
     ]

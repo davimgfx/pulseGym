@@ -2,39 +2,39 @@ export const navLinks = [
     {
       id: "home",
       title: "Home",
-      path: "/"
+      path: "pulseGym"
     }, 
    
     {
       id: "about",
       title: "About Us",
-      path: "about"
+      path: "pulseGym/about"
     }, 
     {
       id: "classes",
       title: "Classes",
-      path: "classes"
+      path: "pulseGym/classes"
     },
 
     {
       id: "schedule",
       title: "Schedule",
-      path: "schedule"
+      path: "pulseGym/schedule"
     },
     {
       id: "pricing",
       title: "Pricing",
-      path: "pricing"
+      path: "pulseGym/pricing"
     },
     {
       id: "login",
       title: "Login",
-      path: "login"
+      path: "pulseGym/login"
     },
     {
       id: "contact",
       title: "Contact",
-      path: "contact"
+      path: "pulseGym/contact"
     },
   ];
   

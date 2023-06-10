@@ -29,32 +29,32 @@ const Footer = () => {
         <div>
           <h2 className="text-[24px] font-bold mt-[3rem]">Usefull Link</h2>
           <div className="h-[0.5rem] bg-[#fffb03] my-[0.1rem] rounded transform translate-x-2 max-w-[9rem]"></div>
-          <Link to="about">
+          <Link to="pulseGym/about">
             <p className="mt-[2rem] text-[16px] hover:font-bold cursor-pointer duration-500 ease">
               About Us
             </p>
           </Link>
-          <Link to="classes">
+          <Link to="pulseGym/classes">
             <p className="mt-[2rem] text-[16px] hover:font-bold cursor-pointer duration-500 ease">
               Classes
             </p>
           </Link>
-          <Link to="schedule">
+          <Link to="pulseGym/schedule">
             <p className="mt-[2rem] text-[16px] hover:font-bold cursor-pointer duration-500 ease">
               Schedule
             </p>
           </Link>
-          <Link to="pricing">
+          <Link to="pulseGym/pricing">
             <p className="mt-[2rem] text-[16px] hover:font-bold cursor-pointer duration-500 ease">
               Pricing
             </p>
           </Link>
-          <Link to="login">
+          <Link to="pulseGym/login">
             <p className="mt-[2rem] text-[16px] hover:font-bold cursor-pointer duration-500 ease">
               Login
             </p>
           </Link>
-          <Link to="contact">
+          <Link to="pulseGym/contact">
             <p className="mt-[2rem] text-[16px] hover:font-bold cursor-pointer duration-500 ease">
               Contact
             </p>

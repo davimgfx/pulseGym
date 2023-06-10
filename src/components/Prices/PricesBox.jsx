@@ -15,7 +15,7 @@ const PricesBox = ({link}) => {
           <p className="p-6 w-[23rem] text-[13px] md1200:hidden">{key.msg}</p>   
           <p className="text-[5rem] font-bold min375:text-[35px]">$ {key.price}</p>
           <div className="flex justify-center">
-            <Link to="../pricing">
+            <Link to="/pulseGym/pricing">
               <MainButton text="ENROLL NOW"  colortext="black"/>
             </Link>
           </div>
