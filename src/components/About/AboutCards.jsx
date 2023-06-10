@@ -1,5 +1,5 @@
 import { cardList } from "./CardList.js";
-
+import "./CardList-style.css"
 const AboutCards = () => {
   return (
     <>

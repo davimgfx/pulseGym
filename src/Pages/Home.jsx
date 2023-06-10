@@ -1,6 +1,15 @@
 import React from "react";
-import { About, Class, Hero, Navbar, Whychooseus, Trainers, Testimonials, Gallery, Bmi, Prices, Footer } from "../components";
-
+import {
+  About,
+  Bmi,
+  Class,
+  Gallery,
+  Hero,
+  Prices,
+  Testimonials,
+  Trainers,
+  Whychooseus,
+} from "../components";
 
 const Home = () => (
   <>

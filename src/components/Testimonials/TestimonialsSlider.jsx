@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
 import { PeopleCarousel } from "./TestimonialsCompany";
+import "./TestimonialsSlider-style.css"
 
 const TestimonialsSlider = () => {
   const settings = {

@@ -1,5 +1,6 @@
 import React from "react";
 import { ClassesDays, StarterBanner } from "../components";
+import "../components/Class/ClassesDays-style.css"
 const Classes = () => {
   return (
     <>

@@ -1,0 +1,48 @@
+.logo {
+    height: 10rem;
+    margin-left: 6rem;
+  }
+  
+  .nav-btn {
+    display: none;
+  }
+  
+  .navbar-border {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 13px 27px -5px,
+      rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  }
+
+@media screen and (max-width: 1200px) {
+    .nav-btn {
+      display: flex;
+    }
+    .nav-close-btn {
+      position: absolute;
+      top: 2rem;
+      right: 2rem;
+      z-index: 101;
+    }
+  
+    .nav-phone {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: auto;
+      width: 100%;
+      display: flex;
+      justify-items: center;
+      align-items: center;
+      z-index: 100;
+      padding: 2rem;
+      gap: 2rem;
+      background: #37383a;
+      margin: auto;
+      flex-direction: column;
+      transition: 1s;
+      transform: translateY(-100vh);
+    }
+  
+    .responsive_nav {
+      transform: none;
+    }
+  }

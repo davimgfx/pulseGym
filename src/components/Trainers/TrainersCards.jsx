@@ -8,7 +8,7 @@ const TrainersCards = () => {
         <div
           key={id}
           className={`border-black border-solid p-[2rem] min450:p-0 min450:border-0 rounded-xl ${
-            id + 1 === 1 ? "card-1" : id + 1 === 2 ? "card-2" : "card-3"
+            id + 1 === 1 ? "card-trainer-1" : id + 1 === 2 ? "card-trainer-2" : "card-trainer-3"
           }`}>
           <img
             src={card.img}

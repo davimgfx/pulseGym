@@ -41,7 +41,7 @@ export const ClassesDays = [
   },
   {
     name: "Stretching",
-    date: "Sunday: 4:00PM-5:00PM",
+    date: "Sun: 4:00PM-5:00PM",
     teacher: "Naruto Uzumaki",
   },
 

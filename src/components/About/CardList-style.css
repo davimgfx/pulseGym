@@ -1,0 +1,20 @@
+.card-item-div-0:hover,
+.card-item-div-1:hover,
+.card-item-div-2:hover,
+.card-item-div-3:hover {
+  background-position: center center;
+  object-fit: cover;
+}
+
+.card-item-div-0:hover {
+  background-image: url("../src/assets/about-us/info-card-1.jpg");
+}
+.card-item-div-1:hover {
+  background-image: url("../src/assets/about-us/info-card-2.jpg");
+}
+.card-item-div-2:hover {
+  background-image: url("../src/assets/about-us/info-card-3.jpg");
+}
+.card-item-div-3:hover {
+  background-image: url("../src/assets/about-us/info-card-4.jpg");
+}

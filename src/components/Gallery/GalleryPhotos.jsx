@@ -7,6 +7,7 @@ import img5 from "../../assets/gallery/img5.jpg";
 import img6 from "../../assets/gallery/img6.png";
 import img7 from "../../assets/gallery/img7.png";
 import img8 from "../../assets/gallery/img8.jpg";
+import "./GalleryPhotos-style.css"
 
 const GalleryPhotos = () => {
   return (

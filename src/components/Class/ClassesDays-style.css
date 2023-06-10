@@ -1,0 +1,50 @@
+.box-bg-classes,
+.yoga-bg-classes,
+.crossfit-bg-classes,
+.basketball-bg-classes,
+.workout-bg-classes,
+.runner-bg-classes,
+.aerobic-bg-classes,
+.mma-bg-classes,
+.stretching-bg-classes {
+  object-fit: cover;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.box-bg-classes {
+  background-image: url("../src/assets/class/class1.png");
+}
+
+.yoga-bg-classes {
+  background-image: url("../src/assets/class/class2.png");
+}
+
+.crossfit-bg-classes {
+  background-image: url("../src/assets/class/class3.png");
+}
+
+.basketball-bg-classes {
+  background-image: url("../src/assets/class/class4.png");
+}
+
+.workout-bg-classes {
+  background-image: url("../src/assets/class/class5.png");
+}
+
+.runner-bg-classes {
+  background-image: url("../src/assets/class/class6.png");
+}
+
+.aerobic-bg-classes {
+  background-image: url("../src/assets/class/class7.png");
+}
+
+.mma-bg-classes {
+  background-image: url("../src/assets/class/class8.png");
+}
+
+.stretching-bg-classes {
+  background-image: url("../src/assets/class/class9.png");
+}
