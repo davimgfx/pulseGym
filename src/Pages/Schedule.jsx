@@ -31,20 +31,20 @@ const Schedule = () => {
 
     return (
       <div className="">
-        <ul className="container page-padding py-[3rem] grid-cols-1 grid-rows-1 text-center grid border-black border-solid">
+        <ul className="mx-[auto] page-padding py-[3rem] grid-cols-1 grid-rows-1 text-center grid border-black border-solid w-[116rem] my-[3rem] md1200:w-[90rem] md1000:mx-[2rem] md1000:w-[auto] rounded-xl">
           {schedule.class.map((className, index) => (
-            <li key={index} className="flex justify-center gap-[20rem] border-gray-500 border-solid my-[1rem]">
-              <div className="flex  flex-col h-[1rem] w-[20rem]">
-                <strong className="text-left text-[16px]">Class:</strong>
-                <p className="text-left text-[16px]">{className}</p>
+            <li key={index} className="flex justify-center gap-[20rem] border-gray-500 border-solid my-[1rem] md1000:flex-col md1000:text-center md1000:justify-center md1000:w-[full] md1000:mx-auto md1000:gap-[5rem] rounded-xl">
+              <div className="flex  flex-col h-[1rem] w-[20rem] ">
+                <strong className="text-left text-[16px] md1000:text-center">Class:</strong>
+                <p className="text-left text-[16px] md1000:text-center">{className}</p>
               </div>
               <div className="flex flex-col h-[1rem] w-[20rem]">
-                <p className="text-[16px] text-left"><strong>Time:</strong></p>
-                <p className="text-[16px] text-left">{schedule.time[index]}</p>
+                <p className="text-[16px] text-left md1000:text-center"><strong>Time:</strong></p>
+                <p className="text-[16px] text-left md1000:text-center">{schedule.time[index]}</p>
               </div>
               <div className="flex flex-col h-[5rem] w-[20rem]">
-                <p className="text-[16px] text-left"><strong>Trainer:</strong></p>
-                <p className="text-[16px] text-left">{schedule.trainer[index]}</p>
+                <p className="text-[16px] text-left md1000:text-center"><strong>Trainer:</strong></p>
+                <p className="text-[16px] text-left md1000:text-center">{schedule.trainer[index]}</p>
               </div>
             </li>
           ))}
@@ -56,7 +56,7 @@ const Schedule = () => {
   return (
     <section>
       <StarterBanner title="Schedule" />
-      <div className="my-[5rem]  flex justify-center gap-[2rem] flex-wrap align-center">
+      <div className="my-[5rem] flex justify-center gap-[2rem] flex-wrap align-center mx-[2rem]">
         <button
           type="submit"
           className={`text-[15px] uppercase font-bold mt-2 text-white bg-[#323232] w-[15rem] h-[5rem] hover:bg-[#fffb03] hover:text-black duration-500 ease rounded-full ${
