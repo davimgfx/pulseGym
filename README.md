@@ -14,8 +14,6 @@
 
 » React JS <br>
 » Tailwind.CSS  <br>
-» Coingecko API <br>
-
 
 ## Screenshots of the Project
 
