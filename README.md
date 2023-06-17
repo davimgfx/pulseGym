@@ -12,8 +12,8 @@
 
 ### Build with:
 
-» React JS <br>
-» Tailwind.CSS  <br>
+- React JS <br>
+- Tailwind.CSS  <br>
 
 ## Screenshots of the Project
 
