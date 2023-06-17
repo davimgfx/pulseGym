@@ -1,5 +1,21 @@
+<div align='center'><img style="width:16%" src='https://github.com/davimgfx/pulseGym/assets/118557337/220214e7-7aa6-4842-9a0c-8520cd59c969'/></div>
+
 # PulseGym 🏋️‍♀️
-A gym website project made with React.js and Tailwind.
+ At PulseGym, we are dedicated to helping you achieve the body of
+    your dreams. Our expert trainers and nutritionists will work
+    with you to create a personalized fitness and nutrition plan
+    that helps you reach your specific goals.
+<br />
+<br />
+👉 Live Demo: [Click here](https://davimgfx.github.io/pulseGym/)
+
+
+### Build with:
+
+» React JS <br>
+» Tailwind.CSS  <br>
+» Coingecko API <br>
+
 
 ## Screenshots of the Project
 
