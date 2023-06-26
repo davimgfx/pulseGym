@@ -1,4 +1,4 @@
-<div align='center'><img style="width:16%" src='https://github.com/davimgfx/pulseGym/assets/118557337/220214e7-7aa6-4842-9a0c-8520cd59c969'/></div>
+<div align='center'><img style="width:16%" src='src/assets/logo/logo-footer.png'/></div>
 
 # PulseGym 🏋️‍♀️
  At PulseGym, we are dedicated to helping you achieve the body of
