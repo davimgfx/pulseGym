@@ -1,4 +1,4 @@
-<div align='center'><img style="width:16%" src='src/assets/logo/logo-footer.png'/></div>
+<div align='center'><img style="width:16%" src='src/assets/logo/logo.png'/></div>
 
 # PulseGym 🏋️‍♀️
  At PulseGym, we are dedicated to helping you achieve the body of
