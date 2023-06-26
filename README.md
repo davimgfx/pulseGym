@@ -1,5 +1,5 @@
 <div align='center'>
- <img style="width:16%" src='src/assets/logo/logo.png'/>
+ <img style="width:16%" src='https://github.com/davimgfx/pulseGym/assets/118557337/cc133eb0-baaf-4e89-9431-f708d1897c22'/>
 </div>
 
 # PulseGym 🏋️‍♀️
