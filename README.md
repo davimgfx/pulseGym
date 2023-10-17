@@ -3,10 +3,7 @@
 </div>
 
 # PulseGym 🏋️‍♀️
- At PulseGym, we are dedicated to helping you achieve the body of
-    your dreams. Our expert trainers and nutritionists will work
-    with you to create a personalized fitness and nutrition plan
-    that helps you reach your specific goals.
+ At PulseGym, we are dedicated to helping you achieve the body ofyour dreams. Our expert trainers and nutritionists will workwith you to create a personalized fitness and nutrition planthat helps you reach your specific goals.
 <br />
 <br />
 👉 Live Demo: [Click here](https://davimgfx.github.io/pulseGym/)
